@@ -1,0 +1,856 @@
+
+--------------------------
+SA-MP Server: 0.3.DL-R1
+
+Exception At Address: 0x7B61DEC7 Module: (python39.DLL)
+
+Registers:
+EAX: 0x05999D68	EBX: 0x05999D48	ECX: 0x00000000	EDX: 0x00000005
+ESI: 0x00000001	EDI: 0x0002D230	EBP: 0x0019F548	ESP: 0x0019F4F0
+EFLAGS: 0x00010202
+
+Stack:
++0000: 0x045A2758   0x047795D0   0x00000001   0x7B6CD42E
++0010: 0x04786850   0x00000000   0x047795D0   0x7B8C6558
++0020: 0x0083B150   0x047795D0   0x045A288C   0x00000001
++0030: 0x045A2758   0x7B8C6558   0x05A230A8   0x04423730
++0040: 0x0083B150   0x00000001   0x00000001   0x0019D520
++0050: 0x00000005   0x045A289C   0x0019F5A0   0x7B5CB3C1
++0060: 0x04774D48   0x00000000   0x059C6F80   0x00000006
++0070: 0x00000000   0x059C6F98   0x00000000   0x00000001
++0080: 0x00000000   0x00000000   0x00000000   0x00000000
++0090: 0x024A2110   0x04777860   0x00000006   0x059C6F80
++00A0: 0x04786850   0x4DC6AC35   0x0083B150   0x00000000
++00B0: 0x0019F5D8   0x7B5CADD4   0x04786850   0x059C6F80
++00C0: 0x04774D48   0x00000000   0x00000005   0x059C6F80
++00D0: 0x00000014   0x024CD988   0x00000000   0x7B5CB2E0
++00E0: 0x00000006   0x0083B40C   0x0019F63C   0x7B5CB585
++00F0: 0x0083B150   0x04786850   0x059C6F80   0x00000006
++0100: 0x00000000   0x059C6F84   0x05A17304   0x00000014
++0110: 0x0083B150   0x04786850   0x7B62C060   0x008ED4BC
++0120: 0x05A172F8   0x00000000   0x04786850   0x0083B150
++0130: 0x047FA200   0x049713E8   0x7B62C060   0x049713E8
+
+--------------------------
+
+Loaded Modules:
+samp-server.exe	A: 0x00400000 - 0x0051F000	(C:\Users\cemsin\Desktop\samp03DL_svr_R1_win32 (1)\samp-server.exe)
+ntdll.dll	A: 0x770D0000 - 0x7727F000	(C:\WINDOWS\SYSTEM32\ntdll.dll)
+KERNEL32.DLL	A: 0x75000000 - 0x750F0000	(C:\WINDOWS\System32\KERNEL32.DLL)
+KERNELBASE.dll	A: 0x75ED0000 - 0x76143000	(C:\WINDOWS\System32\KERNELBASE.dll)
+SHELL32.dll	A: 0x75520000 - 0x75B8C000	(C:\WINDOWS\System32\SHELL32.dll)
+msvcp_win.dll	A: 0x75DB0000 - 0x75E29000	(C:\WINDOWS\System32\msvcp_win.dll)
+ucrtbase.dll	A: 0x75B90000 - 0x75CA2000	(C:\WINDOWS\System32\ucrtbase.dll)
+USER32.dll	A: 0x74E30000 - 0x74FD5000	(C:\WINDOWS\System32\USER32.dll)
+win32u.dll	A: 0x74FE0000 - 0x74FFA000	(C:\WINDOWS\System32\win32u.dll)
+GDI32.dll	A: 0x751D0000 - 0x751F3000	(C:\WINDOWS\System32\GDI32.dll)
+gdi32full.dll	A: 0x769A0000 - 0x76A82000	(C:\WINDOWS\System32\gdi32full.dll)
+WINMM.dll	A: 0x6E2B0000 - 0x6E2E1000	(C:\WINDOWS\SYSTEM32\WINMM.dll)
+WSOCK32.dll	A: 0x700C0000 - 0x700C8000	(C:\WINDOWS\SYSTEM32\WSOCK32.dll)
+msvcrt.dll	A: 0x765F0000 - 0x766B4000	(C:\WINDOWS\System32\msvcrt.dll)
+ws2_32.DLL	A: 0x74DD0000 - 0x74E2F000	(C:\WINDOWS\System32\ws2_32.DLL)
+RPCRT4.dll	A: 0x76530000 - 0x765EA000	(C:\WINDOWS\System32\RPCRT4.dll)
+IMM32.DLL	A: 0x75E30000 - 0x75E55000	(C:\WINDOWS\System32\IMM32.DLL)
+PySAMP.DLL	A: 0x6E1D0000 - 0x6E21C000	(C:\Users\cemsin\Desktop\samp03DL_svr_R1_win32 (1)\plugins\PySAMP.DLL)
+MSVCP140.dll	A: 0x6ED80000 - 0x6EDED000	(C:\WINDOWS\SYSTEM32\MSVCP140.dll)
+VCRUNTIME140.dll	A: 0x6EDF0000 - 0x6EE05000	(C:\WINDOWS\SYSTEM32\VCRUNTIME140.dll)
+combase.dll	A: 0x76170000 - 0x763EB000	(C:\WINDOWS\System32\combase.dll)
+python3.dll	A: 0x6E270000 - 0x6E27F000	(C:\Users\cemsin\AppData\Local\Programs\Python\Python39-32\python3.dll)
+python39.DLL	A: 0x7B4C0000 - 0x7B921000	(C:\Users\cemsin\AppData\Local\Programs\Python\Python39-32\python39.DLL)
+ADVAPI32.dll	A: 0x77040000 - 0x770BC000	(C:\WINDOWS\System32\ADVAPI32.dll)
+sechost.dll	A: 0x75CC0000 - 0x75D42000	(C:\WINDOWS\System32\sechost.dll)
+VERSION.dll	A: 0x74CB0000 - 0x74CB8000	(C:\WINDOWS\SYSTEM32\VERSION.dll)
+mswsock.dll	A: 0x70470000 - 0x704C1000	(C:\WINDOWS\system32\mswsock.dll)
+napinsp.dll	A: 0x70450000 - 0x70462000	(C:\WINDOWS\system32\napinsp.dll)
+pnrpnsp.dll	A: 0x70430000 - 0x70446000	(C:\WINDOWS\system32\pnrpnsp.dll)
+DNSAPI.dll	A: 0x70370000 - 0x70429000	(C:\WINDOWS\SYSTEM32\DNSAPI.dll)
+IPHLPAPI.DLL	A: 0x70340000 - 0x70364000	(C:\WINDOWS\SYSTEM32\IPHLPAPI.DLL)
+NSI.dll	A: 0x76150000 - 0x76157000	(C:\WINDOWS\System32\NSI.dll)
+winrnr.dll	A: 0x70330000 - 0x7033E000	(C:\WINDOWS\System32\winrnr.dll)
+wshbth.dll	A: 0x70310000 - 0x70321000	(C:\WINDOWS\system32\wshbth.dll)
+rasadhlp.dll	A: 0x6FC70000 - 0x6FC78000	(C:\Windows\System32\rasadhlp.dll)
+CRYPTSP.dll	A: 0x71D60000 - 0x71D75000	(C:\WINDOWS\SYSTEM32\CRYPTSP.dll)
+CRYPTBASE.dll	A: 0x71C50000 - 0x71C5B000	(C:\WINDOWS\SYSTEM32\CRYPTBASE.dll)
+bcryptPrimitives.dll	A: 0x753B0000 - 0x75412000	(C:\WINDOWS\System32\bcryptPrimitives.dll)
+libcrypto-1_1.dll	A: 0x7BBA0000 - 0x7BDD0000	(C:\Users\cemsin\AppData\Local\Programs\Python\Python39-32\DLLs\libcrypto-1_1.dll)
+bcrypt.dll	A: 0x71C30000 - 0x71C4A000	(C:\WINDOWS\SYSTEM32\bcrypt.dll)
+_bcrypt.pyd	A: 0x6E180000 - 0x6E1CA000	(C:\Users\cemsin\AppData\Local\Programs\Python\Python39-32\lib\site-packages\bcrypt\_bcrypt.pyd)
+collections.cp39-win32.pyd	A: 0x6E240000 - 0x6E25F000	(C:\Users\cemsin\AppData\Local\Programs\Python\Python39-32\lib\site-packages\sqlalchemy\cyextension\collections.cp39-win32.pyd)
+immutabledict.cp39-win32.pyd	A: 0x6E170000 - 0x6E17E000	(C:\Users\cemsin\AppData\Local\Programs\Python\Python39-32\lib\site-packages\sqlalchemy\cyextension\immutabledict.cp39-win32.pyd)
+processors.cp39-win32.pyd	A: 0x6E160000 - 0x6E16A000	(C:\Users\cemsin\AppData\Local\Programs\Python\Python39-32\lib\site-packages\sqlalchemy\cyextension\processors.cp39-win32.pyd)
+resultproxy.cp39-win32.pyd	A: 0x6E150000 - 0x6E15D000	(C:\Users\cemsin\AppData\Local\Programs\Python\Python39-32\lib\site-packages\sqlalchemy\cyextension\resultproxy.cp39-win32.pyd)
+util.cp39-win32.pyd	A: 0x6E140000 - 0x6E14E000	(C:\Users\cemsin\AppData\Local\Programs\Python\Python39-32\lib\site-packages\sqlalchemy\cyextension\util.cp39-win32.pyd)
+_socket.pyd	A: 0x6E0D0000 - 0x6E0E2000	(C:\Users\cemsin\AppData\Local\Programs\Python\Python39-32\DLLs\_socket.pyd)
+select.pyd	A: 0x6E130000 - 0x6E138000	(C:\Users\cemsin\AppData\Local\Programs\Python\Python39-32\DLLs\select.pyd)
+_bz2.pyd	A: 0x6E0B0000 - 0x6E0C5000	(C:\Users\cemsin\AppData\Local\Programs\Python\Python39-32\DLLs\_bz2.pyd)
+_ssl.pyd	A: 0x6E050000 - 0x6E075000	(C:\Users\cemsin\AppData\Local\Programs\Python\Python39-32\DLLs\_ssl.pyd)
+CRYPT32.dll	A: 0x76890000 - 0x76994000	(C:\WINDOWS\System32\CRYPT32.dll)
+libssl-1_1.dll	A: 0x78C00000 - 0x78C88000	(C:\Users\cemsin\AppData\Local\Programs\Python\Python39-32\DLLs\libssl-1_1.dll)
+_asyncio.pyd	A: 0x6E040000 - 0x6E050000	(C:\Users\cemsin\AppData\Local\Programs\Python\Python39-32\DLLs\_asyncio.pyd)
+_overlapped.pyd	A: 0x78C90000 - 0x78C9B000	(C:\Users\cemsin\AppData\Local\Programs\Python\Python39-32\DLLs\_overlapped.pyd)
+_greenlet.cp39-win32.pyd	A: 0x78CA0000 - 0x78CB1000	(C:\Users\cemsin\AppData\Local\Programs\Python\Python39-32\lib\site-packages\greenlet\_greenlet.cp39-win32.pyd)
+_decimal.pyd	A: 0x7BDD0000 - 0x7BE0A000	(C:\Users\cemsin\AppData\Local\Programs\Python\Python39-32\DLLs\_decimal.pyd)
+_uuid.pyd	A: 0x78CC0000 - 0x78CC7000	(C:\Users\cemsin\AppData\Local\Programs\Python\Python39-32\DLLs\_uuid.pyd)
+_sqlite3.pyd	A: 0x786D0000 - 0x786E2000	(C:\Users\cemsin\AppData\Local\Programs\Python\Python39-32\DLLs\_sqlite3.pyd)
+sqlite3.dll	A: 0x78590000 - 0x786C7000	(C:\Users\cemsin\AppData\Local\Programs\Python\Python39-32\DLLs\sqlite3.dll)
+
+--------------------------
+SA-MP Server: 0.3.DL-R1
+
+Exception At Address: 0x7B61DEC7 Module: (python39.DLL)
+
+Registers:
+EAX: 0x05999D90	EBX: 0x05999D70	ECX: 0x00000000	EDX: 0x00000005
+ESI: 0x00000001	EDI: 0x0002C458	EBP: 0x0019F550	ESP: 0x0019F4F8
+EFLAGS: 0x00010202
+
+Stack:
++0000: 0x04592758   0x047695D0   0x00000001   0x7B6CD42E
++0010: 0x04776850   0x00000000   0x047695D0   0x7B8C6558
++0020: 0x008ACAF8   0x047695D0   0x0459288C   0x00000001
++0030: 0x04592758   0x7B8C6558   0x0597BF28   0x04413730
++0040: 0x008ACAF8   0x00000001   0x00000001   0x0019F564
++0050: 0x00000005   0x0459289C   0x0019F5A8   0x7B5CB3C1
++0060: 0x04764D48   0x00000000   0x059C61D0   0x00000006
++0070: 0x00000000   0x059C61E8   0x00000000   0x00000001
++0080: 0x00000000   0x00000000   0x00000000   0x00000000
++0090: 0x04362110   0x04767860   0x00000006   0x059C61D0
++00A0: 0x04776850   0xDC3C5BC0   0x008ACAF8   0x00000000
++00B0: 0x0019F5E0   0x7B5CADD4   0x04776850   0x059C61D0
++00C0: 0x04764D48   0x00000000   0x00000005   0x059C61D0
++00D0: 0x00000014   0x04775488   0x00000000   0x7B5CB2E0
++00E0: 0x00000006   0x047F59D4   0x0019F644   0x7B5CB585
++00F0: 0x008ACAF8   0x04776850   0x059C61D0   0x00000006
++0100: 0x00000000   0x059C61D4   0x05999DF4   0x00000014
++0110: 0x008ACAF8   0x04776850   0x7B62C060   0x04775494
++0120: 0x05999DE8   0x00000000   0x04776850   0x008ACAF8
++0130: 0x047EA200   0x049613E8   0x7B62C060   0x00000000
+
+--------------------------
+
+Loaded Modules:
+samp-server.exe	A: 0x00400000 - 0x0051F000	(C:\Users\cemsin\Desktop\samp03DL_svr_R1_win32 (1)\samp-server.exe)
+ntdll.dll	A: 0x770D0000 - 0x7727F000	(C:\WINDOWS\SYSTEM32\ntdll.dll)
+KERNEL32.DLL	A: 0x75000000 - 0x750F0000	(C:\WINDOWS\System32\KERNEL32.DLL)
+KERNELBASE.dll	A: 0x75ED0000 - 0x76143000	(C:\WINDOWS\System32\KERNELBASE.dll)
+SHELL32.dll	A: 0x75520000 - 0x75B8C000	(C:\WINDOWS\System32\SHELL32.dll)
+msvcp_win.dll	A: 0x75DB0000 - 0x75E29000	(C:\WINDOWS\System32\msvcp_win.dll)
+ucrtbase.dll	A: 0x75B90000 - 0x75CA2000	(C:\WINDOWS\System32\ucrtbase.dll)
+USER32.dll	A: 0x74E30000 - 0x74FD5000	(C:\WINDOWS\System32\USER32.dll)
+win32u.dll	A: 0x74FE0000 - 0x74FFA000	(C:\WINDOWS\System32\win32u.dll)
+GDI32.dll	A: 0x751D0000 - 0x751F3000	(C:\WINDOWS\System32\GDI32.dll)
+gdi32full.dll	A: 0x769A0000 - 0x76A82000	(C:\WINDOWS\System32\gdi32full.dll)
+WINMM.dll	A: 0x6E2B0000 - 0x6E2E1000	(C:\WINDOWS\SYSTEM32\WINMM.dll)
+WSOCK32.dll	A: 0x700C0000 - 0x700C8000	(C:\WINDOWS\SYSTEM32\WSOCK32.dll)
+msvcrt.dll	A: 0x765F0000 - 0x766B4000	(C:\WINDOWS\System32\msvcrt.dll)
+ws2_32.DLL	A: 0x74DD0000 - 0x74E2F000	(C:\WINDOWS\System32\ws2_32.DLL)
+RPCRT4.dll	A: 0x76530000 - 0x765EA000	(C:\WINDOWS\System32\RPCRT4.dll)
+IMM32.DLL	A: 0x75E30000 - 0x75E55000	(C:\WINDOWS\System32\IMM32.DLL)
+PySAMP.DLL	A: 0x6E1D0000 - 0x6E21C000	(C:\Users\cemsin\Desktop\samp03DL_svr_R1_win32 (1)\plugins\PySAMP.DLL)
+VCRUNTIME140.dll	A: 0x6EDF0000 - 0x6EE05000	(C:\WINDOWS\SYSTEM32\VCRUNTIME140.dll)
+MSVCP140.dll	A: 0x6ED80000 - 0x6EDED000	(C:\WINDOWS\SYSTEM32\MSVCP140.dll)
+combase.dll	A: 0x76170000 - 0x763EB000	(C:\WINDOWS\System32\combase.dll)
+python3.dll	A: 0x6E270000 - 0x6E27F000	(C:\Users\cemsin\AppData\Local\Programs\Python\Python39-32\python3.dll)
+python39.DLL	A: 0x7B4C0000 - 0x7B921000	(C:\Users\cemsin\AppData\Local\Programs\Python\Python39-32\python39.DLL)
+ADVAPI32.dll	A: 0x77040000 - 0x770BC000	(C:\WINDOWS\System32\ADVAPI32.dll)
+sechost.dll	A: 0x75CC0000 - 0x75D42000	(C:\WINDOWS\System32\sechost.dll)
+VERSION.dll	A: 0x74CB0000 - 0x74CB8000	(C:\WINDOWS\SYSTEM32\VERSION.dll)
+mswsock.dll	A: 0x70470000 - 0x704C1000	(C:\WINDOWS\system32\mswsock.dll)
+napinsp.dll	A: 0x70450000 - 0x70462000	(C:\WINDOWS\system32\napinsp.dll)
+pnrpnsp.dll	A: 0x70430000 - 0x70446000	(C:\WINDOWS\system32\pnrpnsp.dll)
+DNSAPI.dll	A: 0x70370000 - 0x70429000	(C:\WINDOWS\SYSTEM32\DNSAPI.dll)
+IPHLPAPI.DLL	A: 0x70340000 - 0x70364000	(C:\WINDOWS\SYSTEM32\IPHLPAPI.DLL)
+NSI.dll	A: 0x76150000 - 0x76157000	(C:\WINDOWS\System32\NSI.dll)
+winrnr.dll	A: 0x70330000 - 0x7033E000	(C:\WINDOWS\System32\winrnr.dll)
+wshbth.dll	A: 0x70310000 - 0x70321000	(C:\WINDOWS\system32\wshbth.dll)
+rasadhlp.dll	A: 0x6FC70000 - 0x6FC78000	(C:\Windows\System32\rasadhlp.dll)
+CRYPTSP.dll	A: 0x71D60000 - 0x71D75000	(C:\WINDOWS\SYSTEM32\CRYPTSP.dll)
+CRYPTBASE.dll	A: 0x71C50000 - 0x71C5B000	(C:\WINDOWS\SYSTEM32\CRYPTBASE.dll)
+bcryptPrimitives.dll	A: 0x753B0000 - 0x75412000	(C:\WINDOWS\System32\bcryptPrimitives.dll)
+libcrypto-1_1.dll	A: 0x7BBA0000 - 0x7BDD0000	(C:\Users\cemsin\AppData\Local\Programs\Python\Python39-32\DLLs\libcrypto-1_1.dll)
+bcrypt.dll	A: 0x71C30000 - 0x71C4A000	(C:\WINDOWS\SYSTEM32\bcrypt.dll)
+_bcrypt.pyd	A: 0x6E180000 - 0x6E1CA000	(C:\Users\cemsin\AppData\Local\Programs\Python\Python39-32\lib\site-packages\bcrypt\_bcrypt.pyd)
+collections.cp39-win32.pyd	A: 0x6E240000 - 0x6E25F000	(C:\Users\cemsin\AppData\Local\Programs\Python\Python39-32\lib\site-packages\sqlalchemy\cyextension\collections.cp39-win32.pyd)
+immutabledict.cp39-win32.pyd	A: 0x6E170000 - 0x6E17E000	(C:\Users\cemsin\AppData\Local\Programs\Python\Python39-32\lib\site-packages\sqlalchemy\cyextension\immutabledict.cp39-win32.pyd)
+processors.cp39-win32.pyd	A: 0x6E160000 - 0x6E16A000	(C:\Users\cemsin\AppData\Local\Programs\Python\Python39-32\lib\site-packages\sqlalchemy\cyextension\processors.cp39-win32.pyd)
+resultproxy.cp39-win32.pyd	A: 0x6E150000 - 0x6E15D000	(C:\Users\cemsin\AppData\Local\Programs\Python\Python39-32\lib\site-packages\sqlalchemy\cyextension\resultproxy.cp39-win32.pyd)
+util.cp39-win32.pyd	A: 0x6E140000 - 0x6E14E000	(C:\Users\cemsin\AppData\Local\Programs\Python\Python39-32\lib\site-packages\sqlalchemy\cyextension\util.cp39-win32.pyd)
+_socket.pyd	A: 0x6E0D0000 - 0x6E0E2000	(C:\Users\cemsin\AppData\Local\Programs\Python\Python39-32\DLLs\_socket.pyd)
+select.pyd	A: 0x6E130000 - 0x6E138000	(C:\Users\cemsin\AppData\Local\Programs\Python\Python39-32\DLLs\select.pyd)
+_bz2.pyd	A: 0x6E0B0000 - 0x6E0C5000	(C:\Users\cemsin\AppData\Local\Programs\Python\Python39-32\DLLs\_bz2.pyd)
+_ssl.pyd	A: 0x6E050000 - 0x6E075000	(C:\Users\cemsin\AppData\Local\Programs\Python\Python39-32\DLLs\_ssl.pyd)
+CRYPT32.dll	A: 0x76890000 - 0x76994000	(C:\WINDOWS\System32\CRYPT32.dll)
+libssl-1_1.dll	A: 0x78C00000 - 0x78C88000	(C:\Users\cemsin\AppData\Local\Programs\Python\Python39-32\DLLs\libssl-1_1.dll)
+_asyncio.pyd	A: 0x6E040000 - 0x6E050000	(C:\Users\cemsin\AppData\Local\Programs\Python\Python39-32\DLLs\_asyncio.pyd)
+_overlapped.pyd	A: 0x78C90000 - 0x78C9B000	(C:\Users\cemsin\AppData\Local\Programs\Python\Python39-32\DLLs\_overlapped.pyd)
+_greenlet.cp39-win32.pyd	A: 0x78CA0000 - 0x78CB1000	(C:\Users\cemsin\AppData\Local\Programs\Python\Python39-32\lib\site-packages\greenlet\_greenlet.cp39-win32.pyd)
+_decimal.pyd	A: 0x7BDD0000 - 0x7BE0A000	(C:\Users\cemsin\AppData\Local\Programs\Python\Python39-32\DLLs\_decimal.pyd)
+_uuid.pyd	A: 0x78CC0000 - 0x78CC7000	(C:\Users\cemsin\AppData\Local\Programs\Python\Python39-32\DLLs\_uuid.pyd)
+_sqlite3.pyd	A: 0x786D0000 - 0x786E2000	(C:\Users\cemsin\AppData\Local\Programs\Python\Python39-32\DLLs\_sqlite3.pyd)
+sqlite3.dll	A: 0x78590000 - 0x786C7000	(C:\Users\cemsin\AppData\Local\Programs\Python\Python39-32\DLLs\sqlite3.dll)
+
+--------------------------
+SA-MP Server: 0.3.DL-R1
+
+Exception At Address: 0x7B61DEC7 Module: (python39.DLL)
+
+Registers:
+EAX: 0x05989CA0	EBX: 0x05989C80	ECX: 0x00000000	EDX: 0x00000005
+ESI: 0x00000001	EDI: 0x0002C578	EBP: 0x0019F550	ESP: 0x0019F4F8
+EFLAGS: 0x00010202
+
+Stack:
++0000: 0x04572758   0x0474A5D0   0x00000001   0x7B6CD42E
++0010: 0x04756850   0x00000000   0x0474A5D0   0x7B8C6558
++0020: 0x0073ADC8   0x0474A5D0   0x0457288C   0x00000001
++0030: 0x04572758   0x7B8C6558   0x0596BFA8   0x043F3730
++0040: 0x0073ADC8   0x00000001   0x00000001   0x0019F564
++0050: 0x00000005   0x0457289C   0x0019F5A8   0x7B5CB3C1
++0060: 0x04744DE8   0x00000000   0x059B6200   0x00000006
++0070: 0x00000000   0x059B6218   0x00000000   0x00000001
++0080: 0x00000000   0x00000000   0x00000000   0x00000000
++0090: 0x04342110   0x04747860   0x00000006   0x059B6200
++00A0: 0x04756850   0xCABC8934   0x0073ADC8   0x00000000
++00B0: 0x0019F5E0   0x7B5CADD4   0x04756850   0x059B6200
++00C0: 0x04744DE8   0x00000000   0x00000005   0x059B6200
++00D0: 0x00000014   0x0436D988   0x00000000   0x7B5CB2E0
++00E0: 0x00000006   0x00738184   0x0019F644   0x7B5CB585
++00F0: 0x0073ADC8   0x04756850   0x059B6200   0x00000006
++0100: 0x00000000   0x059B6204   0x05989D04   0x00000014
++0110: 0x0073ADC8   0x04756850   0x7B62C060   0x007BF4DC
++0120: 0x05989CF8   0x00000000   0x04756850   0x0073ADC8
++0130: 0x047CA200   0x049413E8   0x7B62C060   0x049413E8
+
+--------------------------
+
+Loaded Modules:
+samp-server.exe	A: 0x00400000 - 0x0051F000	(C:\Users\cemsin\Desktop\samp03DL_svr_R1_win32 (1)\samp-server.exe)
+ntdll.dll	A: 0x770D0000 - 0x7727F000	(C:\WINDOWS\SYSTEM32\ntdll.dll)
+KERNEL32.DLL	A: 0x75000000 - 0x750F0000	(C:\WINDOWS\System32\KERNEL32.DLL)
+KERNELBASE.dll	A: 0x75ED0000 - 0x76143000	(C:\WINDOWS\System32\KERNELBASE.dll)
+SHELL32.dll	A: 0x75520000 - 0x75B8C000	(C:\WINDOWS\System32\SHELL32.dll)
+msvcp_win.dll	A: 0x75DB0000 - 0x75E29000	(C:\WINDOWS\System32\msvcp_win.dll)
+ucrtbase.dll	A: 0x75B90000 - 0x75CA2000	(C:\WINDOWS\System32\ucrtbase.dll)
+USER32.dll	A: 0x74E30000 - 0x74FD5000	(C:\WINDOWS\System32\USER32.dll)
+win32u.dll	A: 0x74FE0000 - 0x74FFA000	(C:\WINDOWS\System32\win32u.dll)
+GDI32.dll	A: 0x751D0000 - 0x751F3000	(C:\WINDOWS\System32\GDI32.dll)
+gdi32full.dll	A: 0x769A0000 - 0x76A82000	(C:\WINDOWS\System32\gdi32full.dll)
+WSOCK32.dll	A: 0x700C0000 - 0x700C8000	(C:\WINDOWS\SYSTEM32\WSOCK32.dll)
+WINMM.dll	A: 0x6E2B0000 - 0x6E2E1000	(C:\WINDOWS\SYSTEM32\WINMM.dll)
+msvcrt.dll	A: 0x765F0000 - 0x766B4000	(C:\WINDOWS\System32\msvcrt.dll)
+ws2_32.DLL	A: 0x74DD0000 - 0x74E2F000	(C:\WINDOWS\System32\ws2_32.DLL)
+RPCRT4.dll	A: 0x76530000 - 0x765EA000	(C:\WINDOWS\System32\RPCRT4.dll)
+IMM32.DLL	A: 0x75E30000 - 0x75E55000	(C:\WINDOWS\System32\IMM32.DLL)
+PySAMP.DLL	A: 0x6E1D0000 - 0x6E21C000	(C:\Users\cemsin\Desktop\samp03DL_svr_R1_win32 (1)\plugins\PySAMP.DLL)
+MSVCP140.dll	A: 0x6ED80000 - 0x6EDED000	(C:\WINDOWS\SYSTEM32\MSVCP140.dll)
+VCRUNTIME140.dll	A: 0x6EDF0000 - 0x6EE05000	(C:\WINDOWS\SYSTEM32\VCRUNTIME140.dll)
+combase.dll	A: 0x76170000 - 0x763EB000	(C:\WINDOWS\System32\combase.dll)
+python3.dll	A: 0x6E270000 - 0x6E27F000	(C:\Users\cemsin\AppData\Local\Programs\Python\Python39-32\python3.dll)
+python39.DLL	A: 0x7B4C0000 - 0x7B921000	(C:\Users\cemsin\AppData\Local\Programs\Python\Python39-32\python39.DLL)
+ADVAPI32.dll	A: 0x77040000 - 0x770BC000	(C:\WINDOWS\System32\ADVAPI32.dll)
+sechost.dll	A: 0x75CC0000 - 0x75D42000	(C:\WINDOWS\System32\sechost.dll)
+VERSION.dll	A: 0x74CB0000 - 0x74CB8000	(C:\WINDOWS\SYSTEM32\VERSION.dll)
+mswsock.dll	A: 0x70470000 - 0x704C1000	(C:\WINDOWS\system32\mswsock.dll)
+napinsp.dll	A: 0x70450000 - 0x70462000	(C:\WINDOWS\system32\napinsp.dll)
+pnrpnsp.dll	A: 0x70430000 - 0x70446000	(C:\WINDOWS\system32\pnrpnsp.dll)
+DNSAPI.dll	A: 0x70370000 - 0x70429000	(C:\WINDOWS\SYSTEM32\DNSAPI.dll)
+IPHLPAPI.DLL	A: 0x70340000 - 0x70364000	(C:\WINDOWS\SYSTEM32\IPHLPAPI.DLL)
+NSI.dll	A: 0x76150000 - 0x76157000	(C:\WINDOWS\System32\NSI.dll)
+winrnr.dll	A: 0x70330000 - 0x7033E000	(C:\WINDOWS\System32\winrnr.dll)
+wshbth.dll	A: 0x70310000 - 0x70321000	(C:\WINDOWS\system32\wshbth.dll)
+rasadhlp.dll	A: 0x6FC70000 - 0x6FC78000	(C:\Windows\System32\rasadhlp.dll)
+CRYPTSP.dll	A: 0x71D60000 - 0x71D75000	(C:\WINDOWS\SYSTEM32\CRYPTSP.dll)
+CRYPTBASE.dll	A: 0x71C50000 - 0x71C5B000	(C:\WINDOWS\SYSTEM32\CRYPTBASE.dll)
+bcryptPrimitives.dll	A: 0x753B0000 - 0x75412000	(C:\WINDOWS\System32\bcryptPrimitives.dll)
+libcrypto-1_1.dll	A: 0x7BBA0000 - 0x7BDD0000	(C:\Users\cemsin\AppData\Local\Programs\Python\Python39-32\DLLs\libcrypto-1_1.dll)
+bcrypt.dll	A: 0x71C30000 - 0x71C4A000	(C:\WINDOWS\SYSTEM32\bcrypt.dll)
+_bcrypt.pyd	A: 0x6E180000 - 0x6E1CA000	(C:\Users\cemsin\AppData\Local\Programs\Python\Python39-32\lib\site-packages\bcrypt\_bcrypt.pyd)
+collections.cp39-win32.pyd	A: 0x6E240000 - 0x6E25F000	(C:\Users\cemsin\AppData\Local\Programs\Python\Python39-32\lib\site-packages\sqlalchemy\cyextension\collections.cp39-win32.pyd)
+immutabledict.cp39-win32.pyd	A: 0x6E170000 - 0x6E17E000	(C:\Users\cemsin\AppData\Local\Programs\Python\Python39-32\lib\site-packages\sqlalchemy\cyextension\immutabledict.cp39-win32.pyd)
+processors.cp39-win32.pyd	A: 0x6E160000 - 0x6E16A000	(C:\Users\cemsin\AppData\Local\Programs\Python\Python39-32\lib\site-packages\sqlalchemy\cyextension\processors.cp39-win32.pyd)
+resultproxy.cp39-win32.pyd	A: 0x6E150000 - 0x6E15D000	(C:\Users\cemsin\AppData\Local\Programs\Python\Python39-32\lib\site-packages\sqlalchemy\cyextension\resultproxy.cp39-win32.pyd)
+util.cp39-win32.pyd	A: 0x6E140000 - 0x6E14E000	(C:\Users\cemsin\AppData\Local\Programs\Python\Python39-32\lib\site-packages\sqlalchemy\cyextension\util.cp39-win32.pyd)
+_socket.pyd	A: 0x6E0D0000 - 0x6E0E2000	(C:\Users\cemsin\AppData\Local\Programs\Python\Python39-32\DLLs\_socket.pyd)
+select.pyd	A: 0x6E130000 - 0x6E138000	(C:\Users\cemsin\AppData\Local\Programs\Python\Python39-32\DLLs\select.pyd)
+_bz2.pyd	A: 0x6E0B0000 - 0x6E0C5000	(C:\Users\cemsin\AppData\Local\Programs\Python\Python39-32\DLLs\_bz2.pyd)
+_ssl.pyd	A: 0x6E050000 - 0x6E075000	(C:\Users\cemsin\AppData\Local\Programs\Python\Python39-32\DLLs\_ssl.pyd)
+CRYPT32.dll	A: 0x76890000 - 0x76994000	(C:\WINDOWS\System32\CRYPT32.dll)
+libssl-1_1.dll	A: 0x78C00000 - 0x78C88000	(C:\Users\cemsin\AppData\Local\Programs\Python\Python39-32\DLLs\libssl-1_1.dll)
+_asyncio.pyd	A: 0x6E040000 - 0x6E050000	(C:\Users\cemsin\AppData\Local\Programs\Python\Python39-32\DLLs\_asyncio.pyd)
+_overlapped.pyd	A: 0x78C90000 - 0x78C9B000	(C:\Users\cemsin\AppData\Local\Programs\Python\Python39-32\DLLs\_overlapped.pyd)
+_greenlet.cp39-win32.pyd	A: 0x78CA0000 - 0x78CB1000	(C:\Users\cemsin\AppData\Local\Programs\Python\Python39-32\lib\site-packages\greenlet\_greenlet.cp39-win32.pyd)
+_decimal.pyd	A: 0x7BDD0000 - 0x7BE0A000	(C:\Users\cemsin\AppData\Local\Programs\Python\Python39-32\DLLs\_decimal.pyd)
+_uuid.pyd	A: 0x78CC0000 - 0x78CC7000	(C:\Users\cemsin\AppData\Local\Programs\Python\Python39-32\DLLs\_uuid.pyd)
+_sqlite3.pyd	A: 0x786D0000 - 0x786E2000	(C:\Users\cemsin\AppData\Local\Programs\Python\Python39-32\DLLs\_sqlite3.pyd)
+sqlite3.dll	A: 0x78590000 - 0x786C7000	(C:\Users\cemsin\AppData\Local\Programs\Python\Python39-32\DLLs\sqlite3.dll)
+
+--------------------------
+SA-MP Server: 0.3.DL-R1
+
+Exception At Address: 0x7B61DEC7 Module: (python39.DLL)
+
+Registers:
+EAX: 0x05989DE0	EBX: 0x05989DC0	ECX: 0x00000000	EDX: 0x00000005
+ESI: 0x00000001	EDI: 0x0002B4C8	EBP: 0x0019F540	ESP: 0x0019F4E8
+EFLAGS: 0x00010202
+
+Stack:
++0000: 0x045A2758   0x0477A5D0   0x00000001   0x7B6CD42E
++0010: 0x04786850   0x00000000   0x0477A5D0   0x7B8C6558
++0020: 0x007ABCB0   0x0477A5D0   0x045A288C   0x00000001
++0030: 0x045A2758   0x7B8C6558   0x0596BC28   0x02653730
++0040: 0x007ABCB0   0x00000001   0x00000001   0x0019D520
++0050: 0x00000005   0x045A289C   0x0019F598   0x7B5CB3C1
++0060: 0x04774DC0   0x00000000   0x059B5290   0x00000006
++0070: 0x00000000   0x059B52A8   0x00000000   0x00000001
++0080: 0x00000000   0x00000000   0x00000000   0x00000000
++0090: 0x025A2110   0x04777860   0x00000006   0x059B5290
++00A0: 0x04786850   0x2EDDED8E   0x007ABCB0   0x00000000
++00B0: 0x0019F5D0   0x7B5CADD4   0x04786850   0x059B5290
++00C0: 0x04774DC0   0x00000000   0x00000005   0x059B5290
++00D0: 0x00000014   0x04785468   0x00000000   0x7B5CB2E0
++00E0: 0x00000006   0x048059D4   0x0019F634   0x7B5CB585
++00F0: 0x007ABCB0   0x04786850   0x059B5290   0x00000006
++0100: 0x00000000   0x059B5294   0x05989E44   0x00000014
++0110: 0x007ABCB0   0x04786850   0x7B62C060   0x04785474
++0120: 0x05989E38   0x00000000   0x04786850   0x007ABCB0
++0130: 0x047FA200   0x049713E8   0x7B62C060   0x00000000
+
+--------------------------
+
+Loaded Modules:
+samp-server.exe	A: 0x00400000 - 0x0051F000	(C:\Users\cemsin\Desktop\samp03DL_svr_R1_win32 (1)\samp-server.exe)
+ntdll.dll	A: 0x770D0000 - 0x7727F000	(C:\WINDOWS\SYSTEM32\ntdll.dll)
+KERNEL32.DLL	A: 0x75000000 - 0x750F0000	(C:\WINDOWS\System32\KERNEL32.DLL)
+KERNELBASE.dll	A: 0x75ED0000 - 0x76143000	(C:\WINDOWS\System32\KERNELBASE.dll)
+SHELL32.dll	A: 0x75520000 - 0x75B8C000	(C:\WINDOWS\System32\SHELL32.dll)
+msvcp_win.dll	A: 0x75DB0000 - 0x75E29000	(C:\WINDOWS\System32\msvcp_win.dll)
+ucrtbase.dll	A: 0x75B90000 - 0x75CA2000	(C:\WINDOWS\System32\ucrtbase.dll)
+USER32.dll	A: 0x74E30000 - 0x74FD5000	(C:\WINDOWS\System32\USER32.dll)
+win32u.dll	A: 0x74FE0000 - 0x74FFA000	(C:\WINDOWS\System32\win32u.dll)
+GDI32.dll	A: 0x751D0000 - 0x751F3000	(C:\WINDOWS\System32\GDI32.dll)
+gdi32full.dll	A: 0x769A0000 - 0x76A82000	(C:\WINDOWS\System32\gdi32full.dll)
+WINMM.dll	A: 0x6E2B0000 - 0x6E2E1000	(C:\WINDOWS\SYSTEM32\WINMM.dll)
+WSOCK32.dll	A: 0x700C0000 - 0x700C8000	(C:\WINDOWS\SYSTEM32\WSOCK32.dll)
+msvcrt.dll	A: 0x765F0000 - 0x766B4000	(C:\WINDOWS\System32\msvcrt.dll)
+ws2_32.DLL	A: 0x74DD0000 - 0x74E2F000	(C:\WINDOWS\System32\ws2_32.DLL)
+RPCRT4.dll	A: 0x76530000 - 0x765EA000	(C:\WINDOWS\System32\RPCRT4.dll)
+IMM32.DLL	A: 0x75E30000 - 0x75E55000	(C:\WINDOWS\System32\IMM32.DLL)
+PySAMP.DLL	A: 0x6E1D0000 - 0x6E21C000	(C:\Users\cemsin\Desktop\samp03DL_svr_R1_win32 (1)\plugins\PySAMP.DLL)
+VCRUNTIME140.dll	A: 0x6EDF0000 - 0x6EE05000	(C:\WINDOWS\SYSTEM32\VCRUNTIME140.dll)
+MSVCP140.dll	A: 0x6ED80000 - 0x6EDED000	(C:\WINDOWS\SYSTEM32\MSVCP140.dll)
+combase.dll	A: 0x76170000 - 0x763EB000	(C:\WINDOWS\System32\combase.dll)
+python3.dll	A: 0x6E270000 - 0x6E27F000	(C:\Users\cemsin\AppData\Local\Programs\Python\Python39-32\python3.dll)
+python39.DLL	A: 0x7B4C0000 - 0x7B921000	(C:\Users\cemsin\AppData\Local\Programs\Python\Python39-32\python39.DLL)
+ADVAPI32.dll	A: 0x77040000 - 0x770BC000	(C:\WINDOWS\System32\ADVAPI32.dll)
+sechost.dll	A: 0x75CC0000 - 0x75D42000	(C:\WINDOWS\System32\sechost.dll)
+VERSION.dll	A: 0x74CB0000 - 0x74CB8000	(C:\WINDOWS\SYSTEM32\VERSION.dll)
+mswsock.dll	A: 0x70470000 - 0x704C1000	(C:\WINDOWS\system32\mswsock.dll)
+napinsp.dll	A: 0x70450000 - 0x70462000	(C:\WINDOWS\system32\napinsp.dll)
+pnrpnsp.dll	A: 0x70430000 - 0x70446000	(C:\WINDOWS\system32\pnrpnsp.dll)
+DNSAPI.dll	A: 0x70370000 - 0x70429000	(C:\WINDOWS\SYSTEM32\DNSAPI.dll)
+IPHLPAPI.DLL	A: 0x70340000 - 0x70364000	(C:\WINDOWS\SYSTEM32\IPHLPAPI.DLL)
+NSI.dll	A: 0x76150000 - 0x76157000	(C:\WINDOWS\System32\NSI.dll)
+winrnr.dll	A: 0x70330000 - 0x7033E000	(C:\WINDOWS\System32\winrnr.dll)
+wshbth.dll	A: 0x70310000 - 0x70321000	(C:\WINDOWS\system32\wshbth.dll)
+rasadhlp.dll	A: 0x6FC70000 - 0x6FC78000	(C:\Windows\System32\rasadhlp.dll)
+CRYPTSP.dll	A: 0x71D60000 - 0x71D75000	(C:\WINDOWS\SYSTEM32\CRYPTSP.dll)
+CRYPTBASE.dll	A: 0x71C50000 - 0x71C5B000	(C:\WINDOWS\SYSTEM32\CRYPTBASE.dll)
+bcryptPrimitives.dll	A: 0x753B0000 - 0x75412000	(C:\WINDOWS\System32\bcryptPrimitives.dll)
+libcrypto-1_1.dll	A: 0x7BBA0000 - 0x7BDD0000	(C:\Users\cemsin\AppData\Local\Programs\Python\Python39-32\DLLs\libcrypto-1_1.dll)
+bcrypt.dll	A: 0x71C30000 - 0x71C4A000	(C:\WINDOWS\SYSTEM32\bcrypt.dll)
+_bcrypt.pyd	A: 0x6E180000 - 0x6E1CA000	(C:\Users\cemsin\AppData\Local\Programs\Python\Python39-32\lib\site-packages\bcrypt\_bcrypt.pyd)
+collections.cp39-win32.pyd	A: 0x6E240000 - 0x6E25F000	(C:\Users\cemsin\AppData\Local\Programs\Python\Python39-32\lib\site-packages\sqlalchemy\cyextension\collections.cp39-win32.pyd)
+immutabledict.cp39-win32.pyd	A: 0x6E170000 - 0x6E17E000	(C:\Users\cemsin\AppData\Local\Programs\Python\Python39-32\lib\site-packages\sqlalchemy\cyextension\immutabledict.cp39-win32.pyd)
+processors.cp39-win32.pyd	A: 0x6E160000 - 0x6E16A000	(C:\Users\cemsin\AppData\Local\Programs\Python\Python39-32\lib\site-packages\sqlalchemy\cyextension\processors.cp39-win32.pyd)
+resultproxy.cp39-win32.pyd	A: 0x6E150000 - 0x6E15D000	(C:\Users\cemsin\AppData\Local\Programs\Python\Python39-32\lib\site-packages\sqlalchemy\cyextension\resultproxy.cp39-win32.pyd)
+util.cp39-win32.pyd	A: 0x6E140000 - 0x6E14E000	(C:\Users\cemsin\AppData\Local\Programs\Python\Python39-32\lib\site-packages\sqlalchemy\cyextension\util.cp39-win32.pyd)
+_socket.pyd	A: 0x6E0D0000 - 0x6E0E2000	(C:\Users\cemsin\AppData\Local\Programs\Python\Python39-32\DLLs\_socket.pyd)
+select.pyd	A: 0x6E130000 - 0x6E138000	(C:\Users\cemsin\AppData\Local\Programs\Python\Python39-32\DLLs\select.pyd)
+_bz2.pyd	A: 0x6E0B0000 - 0x6E0C5000	(C:\Users\cemsin\AppData\Local\Programs\Python\Python39-32\DLLs\_bz2.pyd)
+_ssl.pyd	A: 0x6E050000 - 0x6E075000	(C:\Users\cemsin\AppData\Local\Programs\Python\Python39-32\DLLs\_ssl.pyd)
+CRYPT32.dll	A: 0x76890000 - 0x76994000	(C:\WINDOWS\System32\CRYPT32.dll)
+libssl-1_1.dll	A: 0x78C00000 - 0x78C88000	(C:\Users\cemsin\AppData\Local\Programs\Python\Python39-32\DLLs\libssl-1_1.dll)
+_asyncio.pyd	A: 0x6E040000 - 0x6E050000	(C:\Users\cemsin\AppData\Local\Programs\Python\Python39-32\DLLs\_asyncio.pyd)
+_overlapped.pyd	A: 0x78C90000 - 0x78C9B000	(C:\Users\cemsin\AppData\Local\Programs\Python\Python39-32\DLLs\_overlapped.pyd)
+_greenlet.cp39-win32.pyd	A: 0x78CA0000 - 0x78CB1000	(C:\Users\cemsin\AppData\Local\Programs\Python\Python39-32\lib\site-packages\greenlet\_greenlet.cp39-win32.pyd)
+_decimal.pyd	A: 0x7BDD0000 - 0x7BE0A000	(C:\Users\cemsin\AppData\Local\Programs\Python\Python39-32\DLLs\_decimal.pyd)
+_uuid.pyd	A: 0x78CC0000 - 0x78CC7000	(C:\Users\cemsin\AppData\Local\Programs\Python\Python39-32\DLLs\_uuid.pyd)
+_sqlite3.pyd	A: 0x786D0000 - 0x786E2000	(C:\Users\cemsin\AppData\Local\Programs\Python\Python39-32\DLLs\_sqlite3.pyd)
+sqlite3.dll	A: 0x78590000 - 0x786C7000	(C:\Users\cemsin\AppData\Local\Programs\Python\Python39-32\DLLs\sqlite3.dll)
+
+--------------------------
+SA-MP Server: 0.3.DL-R1
+
+Exception At Address: 0x7B61DEC7 Module: (python39.DLL)
+
+Registers:
+EAX: 0x05989DB8	EBX: 0x05989D98	ECX: 0x00000000	EDX: 0x00000005
+ESI: 0x00000001	EDI: 0x0002B4F0	EBP: 0x0019F550	ESP: 0x0019F4F8
+EFLAGS: 0x00010202
+
+Stack:
++0000: 0x045A2758   0x047795D0   0x00000001   0x7B6CD42E
++0010: 0x04786850   0x00000000   0x047795D0   0x7B8C6558
++0020: 0x007CB388   0x047795D0   0x045A288C   0x00000001
++0030: 0x045A2758   0x7B8C6558   0x06236068   0x02563730
++0040: 0x007CB388   0x00000001   0x00000001   0x0019F564
++0050: 0x00000005   0x045A289C   0x0019F5A8   0x7B5CB3C1
++0060: 0x04774C80   0x00000000   0x059B5290   0x00000006
++0070: 0x00000000   0x059B52A8   0x00000000   0x00000001
++0080: 0x00000000   0x00000000   0x00000000   0x00000000
++0090: 0x02482110   0x04777890   0x00000006   0x059B5290
++00A0: 0x04786850   0x1AB272A2   0x007CB388   0x00000000
++00B0: 0x0019F5E0   0x7B5CADD4   0x04786850   0x059B5290
++00C0: 0x04774C80   0x00000000   0x00000005   0x059B5290
++00D0: 0x00000014   0x024AD988   0x00000000   0x7B5CB2E0
++00E0: 0x00000006   0x0079B15C   0x0019F644   0x7B5CB585
++00F0: 0x007CB388   0x04786850   0x059B5290   0x00000006
++0100: 0x00000000   0x059B5294   0x05989E1C   0x00000014
++0110: 0x007CB388   0x04786850   0x7B62C060   0x00854E5C
++0120: 0x05989E10   0x00000000   0x04786850   0x007CB388
++0130: 0x047FA200   0x049713E8   0x7B62C060   0x049713E8
+
+--------------------------
+
+Loaded Modules:
+samp-server.exe	A: 0x00400000 - 0x0051F000	(C:\Users\cemsin\Desktop\samp03DL_svr_R1_win32 (1)\samp-server.exe)
+ntdll.dll	A: 0x770D0000 - 0x7727F000	(C:\WINDOWS\SYSTEM32\ntdll.dll)
+KERNEL32.DLL	A: 0x75000000 - 0x750F0000	(C:\WINDOWS\System32\KERNEL32.DLL)
+KERNELBASE.dll	A: 0x75ED0000 - 0x76143000	(C:\WINDOWS\System32\KERNELBASE.dll)
+SHELL32.dll	A: 0x75520000 - 0x75B8C000	(C:\WINDOWS\System32\SHELL32.dll)
+msvcp_win.dll	A: 0x75DB0000 - 0x75E29000	(C:\WINDOWS\System32\msvcp_win.dll)
+ucrtbase.dll	A: 0x75B90000 - 0x75CA2000	(C:\WINDOWS\System32\ucrtbase.dll)
+USER32.dll	A: 0x74E30000 - 0x74FD5000	(C:\WINDOWS\System32\USER32.dll)
+win32u.dll	A: 0x74FE0000 - 0x74FFA000	(C:\WINDOWS\System32\win32u.dll)
+GDI32.dll	A: 0x751D0000 - 0x751F3000	(C:\WINDOWS\System32\GDI32.dll)
+gdi32full.dll	A: 0x769A0000 - 0x76A82000	(C:\WINDOWS\System32\gdi32full.dll)
+WINMM.dll	A: 0x6E2B0000 - 0x6E2E1000	(C:\WINDOWS\SYSTEM32\WINMM.dll)
+WSOCK32.dll	A: 0x700C0000 - 0x700C8000	(C:\WINDOWS\SYSTEM32\WSOCK32.dll)
+ws2_32.DLL	A: 0x74DD0000 - 0x74E2F000	(C:\WINDOWS\System32\ws2_32.DLL)
+msvcrt.dll	A: 0x765F0000 - 0x766B4000	(C:\WINDOWS\System32\msvcrt.dll)
+RPCRT4.dll	A: 0x76530000 - 0x765EA000	(C:\WINDOWS\System32\RPCRT4.dll)
+IMM32.DLL	A: 0x75E30000 - 0x75E55000	(C:\WINDOWS\System32\IMM32.DLL)
+PySAMP.DLL	A: 0x6E1D0000 - 0x6E21C000	(C:\Users\cemsin\Desktop\samp03DL_svr_R1_win32 (1)\plugins\PySAMP.DLL)
+MSVCP140.dll	A: 0x6ED80000 - 0x6EDED000	(C:\WINDOWS\SYSTEM32\MSVCP140.dll)
+VCRUNTIME140.dll	A: 0x6EDF0000 - 0x6EE05000	(C:\WINDOWS\SYSTEM32\VCRUNTIME140.dll)
+combase.dll	A: 0x76170000 - 0x763EB000	(C:\WINDOWS\System32\combase.dll)
+python3.dll	A: 0x6E270000 - 0x6E27F000	(C:\Users\cemsin\AppData\Local\Programs\Python\Python39-32\python3.dll)
+python39.DLL	A: 0x7B4C0000 - 0x7B921000	(C:\Users\cemsin\AppData\Local\Programs\Python\Python39-32\python39.DLL)
+ADVAPI32.dll	A: 0x77040000 - 0x770BC000	(C:\WINDOWS\System32\ADVAPI32.dll)
+sechost.dll	A: 0x75CC0000 - 0x75D42000	(C:\WINDOWS\System32\sechost.dll)
+VERSION.dll	A: 0x74CB0000 - 0x74CB8000	(C:\WINDOWS\SYSTEM32\VERSION.dll)
+mswsock.dll	A: 0x70470000 - 0x704C1000	(C:\WINDOWS\system32\mswsock.dll)
+napinsp.dll	A: 0x70450000 - 0x70462000	(C:\WINDOWS\system32\napinsp.dll)
+pnrpnsp.dll	A: 0x70430000 - 0x70446000	(C:\WINDOWS\system32\pnrpnsp.dll)
+DNSAPI.dll	A: 0x70370000 - 0x70429000	(C:\WINDOWS\SYSTEM32\DNSAPI.dll)
+IPHLPAPI.DLL	A: 0x70340000 - 0x70364000	(C:\WINDOWS\SYSTEM32\IPHLPAPI.DLL)
+NSI.dll	A: 0x76150000 - 0x76157000	(C:\WINDOWS\System32\NSI.dll)
+winrnr.dll	A: 0x70330000 - 0x7033E000	(C:\WINDOWS\System32\winrnr.dll)
+wshbth.dll	A: 0x70310000 - 0x70321000	(C:\WINDOWS\system32\wshbth.dll)
+rasadhlp.dll	A: 0x6FC70000 - 0x6FC78000	(C:\Windows\System32\rasadhlp.dll)
+CRYPTSP.dll	A: 0x71D60000 - 0x71D75000	(C:\WINDOWS\SYSTEM32\CRYPTSP.dll)
+CRYPTBASE.dll	A: 0x71C50000 - 0x71C5B000	(C:\WINDOWS\SYSTEM32\CRYPTBASE.dll)
+bcryptPrimitives.dll	A: 0x753B0000 - 0x75412000	(C:\WINDOWS\System32\bcryptPrimitives.dll)
+libcrypto-1_1.dll	A: 0x7BBA0000 - 0x7BDD0000	(C:\Users\cemsin\AppData\Local\Programs\Python\Python39-32\DLLs\libcrypto-1_1.dll)
+bcrypt.dll	A: 0x71C30000 - 0x71C4A000	(C:\WINDOWS\SYSTEM32\bcrypt.dll)
+_bcrypt.pyd	A: 0x6E180000 - 0x6E1CA000	(C:\Users\cemsin\AppData\Local\Programs\Python\Python39-32\lib\site-packages\bcrypt\_bcrypt.pyd)
+collections.cp39-win32.pyd	A: 0x6E240000 - 0x6E25F000	(C:\Users\cemsin\AppData\Local\Programs\Python\Python39-32\lib\site-packages\sqlalchemy\cyextension\collections.cp39-win32.pyd)
+immutabledict.cp39-win32.pyd	A: 0x6E170000 - 0x6E17E000	(C:\Users\cemsin\AppData\Local\Programs\Python\Python39-32\lib\site-packages\sqlalchemy\cyextension\immutabledict.cp39-win32.pyd)
+processors.cp39-win32.pyd	A: 0x6E160000 - 0x6E16A000	(C:\Users\cemsin\AppData\Local\Programs\Python\Python39-32\lib\site-packages\sqlalchemy\cyextension\processors.cp39-win32.pyd)
+resultproxy.cp39-win32.pyd	A: 0x6E150000 - 0x6E15D000	(C:\Users\cemsin\AppData\Local\Programs\Python\Python39-32\lib\site-packages\sqlalchemy\cyextension\resultproxy.cp39-win32.pyd)
+util.cp39-win32.pyd	A: 0x6E140000 - 0x6E14E000	(C:\Users\cemsin\AppData\Local\Programs\Python\Python39-32\lib\site-packages\sqlalchemy\cyextension\util.cp39-win32.pyd)
+_socket.pyd	A: 0x6E0D0000 - 0x6E0E2000	(C:\Users\cemsin\AppData\Local\Programs\Python\Python39-32\DLLs\_socket.pyd)
+select.pyd	A: 0x6E130000 - 0x6E138000	(C:\Users\cemsin\AppData\Local\Programs\Python\Python39-32\DLLs\select.pyd)
+_bz2.pyd	A: 0x6E0B0000 - 0x6E0C5000	(C:\Users\cemsin\AppData\Local\Programs\Python\Python39-32\DLLs\_bz2.pyd)
+_ssl.pyd	A: 0x6E050000 - 0x6E075000	(C:\Users\cemsin\AppData\Local\Programs\Python\Python39-32\DLLs\_ssl.pyd)
+CRYPT32.dll	A: 0x76890000 - 0x76994000	(C:\WINDOWS\System32\CRYPT32.dll)
+libssl-1_1.dll	A: 0x78C00000 - 0x78C88000	(C:\Users\cemsin\AppData\Local\Programs\Python\Python39-32\DLLs\libssl-1_1.dll)
+_asyncio.pyd	A: 0x6E040000 - 0x6E050000	(C:\Users\cemsin\AppData\Local\Programs\Python\Python39-32\DLLs\_asyncio.pyd)
+_overlapped.pyd	A: 0x78C90000 - 0x78C9B000	(C:\Users\cemsin\AppData\Local\Programs\Python\Python39-32\DLLs\_overlapped.pyd)
+_greenlet.cp39-win32.pyd	A: 0x78CA0000 - 0x78CB1000	(C:\Users\cemsin\AppData\Local\Programs\Python\Python39-32\lib\site-packages\greenlet\_greenlet.cp39-win32.pyd)
+_decimal.pyd	A: 0x7BDD0000 - 0x7BE0A000	(C:\Users\cemsin\AppData\Local\Programs\Python\Python39-32\DLLs\_decimal.pyd)
+_uuid.pyd	A: 0x78CC0000 - 0x78CC7000	(C:\Users\cemsin\AppData\Local\Programs\Python\Python39-32\DLLs\_uuid.pyd)
+_sqlite3.pyd	A: 0x786D0000 - 0x786E2000	(C:\Users\cemsin\AppData\Local\Programs\Python\Python39-32\DLLs\_sqlite3.pyd)
+sqlite3.dll	A: 0x78590000 - 0x786C7000	(C:\Users\cemsin\AppData\Local\Programs\Python\Python39-32\DLLs\sqlite3.dll)
+
+--------------------------
+SA-MP Server: 0.3.DL-R1
+
+Exception At Address: 0x7B61DEC7 Module: (python39.DLL)
+
+Registers:
+EAX: 0x05979E30	EBX: 0x05979E10	ECX: 0x00000000	EDX: 0x00000005
+ESI: 0x00000001	EDI: 0x0002C0C0	EBP: 0x0019F538	ESP: 0x0019F4E0
+EFLAGS: 0x00010202
+
+Stack:
++0000: 0x04572758   0x047495D0   0x00000001   0x7B6CD42E
++0010: 0x04756850   0x00000000   0x047495D0   0x7B8C6558
++0020: 0x0060CE98   0x047495D0   0x0457288C   0x00000001
++0030: 0x04572758   0x7B8C6558   0x05A03128   0x043F3730
++0040: 0x0060CE98   0x00000001   0x00000001   0x0019F54C
++0050: 0x00000005   0x0457289C   0x0019F590   0x7B5CB3C1
++0060: 0x04744D70   0x00000000   0x059A5ED8   0x00000006
++0070: 0x00000000   0x059A5EF0   0x00000000   0x00000001
++0080: 0x00000000   0x00000000   0x00000000   0x00000000
++0090: 0x04342110   0x04747860   0x00000006   0x059A5ED8
++00A0: 0x04756850   0x8770B4A5   0x0060CE98   0x00000000
++00B0: 0x0019F5C8   0x7B5CADD4   0x04756850   0x059A5ED8
++00C0: 0x04744D70   0x00000000   0x00000005   0x059A5ED8
++00D0: 0x00000014   0x0436D988   0x00000000   0x7B5CB2E0
++00E0: 0x00000006   0x005DAFAC   0x0019F62C   0x7B5CB585
++00F0: 0x0060CE98   0x04756850   0x059A5ED8   0x00000006
++0100: 0x00000000   0x059A5EDC   0x059F82DC   0x00000014
++0110: 0x0060CE98   0x04756850   0x7B62C060   0x0068E96C
++0120: 0x059F82D0   0x00000000   0x04756850   0x0060CE98
++0130: 0x047CA200   0x049413E8   0x7B62C060   0x049413E8
+
+--------------------------
+
+Loaded Modules:
+samp-server.exe	A: 0x00400000 - 0x0051F000	(C:\Users\cemsin\Desktop\samp03DL_svr_R1_win32 (1)\samp-server.exe)
+ntdll.dll	A: 0x770D0000 - 0x7727F000	(C:\WINDOWS\SYSTEM32\ntdll.dll)
+KERNEL32.DLL	A: 0x75000000 - 0x750F0000	(C:\WINDOWS\System32\KERNEL32.DLL)
+KERNELBASE.dll	A: 0x75ED0000 - 0x76143000	(C:\WINDOWS\System32\KERNELBASE.dll)
+SHELL32.dll	A: 0x75520000 - 0x75B8C000	(C:\WINDOWS\System32\SHELL32.dll)
+msvcp_win.dll	A: 0x75DB0000 - 0x75E29000	(C:\WINDOWS\System32\msvcp_win.dll)
+ucrtbase.dll	A: 0x75B90000 - 0x75CA2000	(C:\WINDOWS\System32\ucrtbase.dll)
+USER32.dll	A: 0x74E30000 - 0x74FD5000	(C:\WINDOWS\System32\USER32.dll)
+win32u.dll	A: 0x74FE0000 - 0x74FFA000	(C:\WINDOWS\System32\win32u.dll)
+GDI32.dll	A: 0x751D0000 - 0x751F3000	(C:\WINDOWS\System32\GDI32.dll)
+gdi32full.dll	A: 0x769A0000 - 0x76A82000	(C:\WINDOWS\System32\gdi32full.dll)
+WINMM.dll	A: 0x6E2B0000 - 0x6E2E1000	(C:\WINDOWS\SYSTEM32\WINMM.dll)
+WSOCK32.dll	A: 0x700C0000 - 0x700C8000	(C:\WINDOWS\SYSTEM32\WSOCK32.dll)
+msvcrt.dll	A: 0x765F0000 - 0x766B4000	(C:\WINDOWS\System32\msvcrt.dll)
+ws2_32.DLL	A: 0x74DD0000 - 0x74E2F000	(C:\WINDOWS\System32\ws2_32.DLL)
+RPCRT4.dll	A: 0x76530000 - 0x765EA000	(C:\WINDOWS\System32\RPCRT4.dll)
+IMM32.DLL	A: 0x75E30000 - 0x75E55000	(C:\WINDOWS\System32\IMM32.DLL)
+PySAMP.DLL	A: 0x6E1D0000 - 0x6E21C000	(C:\Users\cemsin\Desktop\samp03DL_svr_R1_win32 (1)\plugins\PySAMP.DLL)
+VCRUNTIME140.dll	A: 0x6EDF0000 - 0x6EE05000	(C:\WINDOWS\SYSTEM32\VCRUNTIME140.dll)
+MSVCP140.dll	A: 0x6ED80000 - 0x6EDED000	(C:\WINDOWS\SYSTEM32\MSVCP140.dll)
+combase.dll	A: 0x76170000 - 0x763EB000	(C:\WINDOWS\System32\combase.dll)
+python3.dll	A: 0x6E270000 - 0x6E27F000	(C:\Users\cemsin\AppData\Local\Programs\Python\Python39-32\python3.dll)
+python39.DLL	A: 0x7B4C0000 - 0x7B921000	(C:\Users\cemsin\AppData\Local\Programs\Python\Python39-32\python39.DLL)
+ADVAPI32.dll	A: 0x77040000 - 0x770BC000	(C:\WINDOWS\System32\ADVAPI32.dll)
+sechost.dll	A: 0x75CC0000 - 0x75D42000	(C:\WINDOWS\System32\sechost.dll)
+VERSION.dll	A: 0x74CB0000 - 0x74CB8000	(C:\WINDOWS\SYSTEM32\VERSION.dll)
+mswsock.dll	A: 0x70470000 - 0x704C1000	(C:\WINDOWS\system32\mswsock.dll)
+napinsp.dll	A: 0x70450000 - 0x70462000	(C:\WINDOWS\system32\napinsp.dll)
+pnrpnsp.dll	A: 0x70430000 - 0x70446000	(C:\WINDOWS\system32\pnrpnsp.dll)
+DNSAPI.dll	A: 0x70370000 - 0x70429000	(C:\WINDOWS\SYSTEM32\DNSAPI.dll)
+IPHLPAPI.DLL	A: 0x70340000 - 0x70364000	(C:\WINDOWS\SYSTEM32\IPHLPAPI.DLL)
+NSI.dll	A: 0x76150000 - 0x76157000	(C:\WINDOWS\System32\NSI.dll)
+winrnr.dll	A: 0x70330000 - 0x7033E000	(C:\WINDOWS\System32\winrnr.dll)
+wshbth.dll	A: 0x70310000 - 0x70321000	(C:\WINDOWS\system32\wshbth.dll)
+rasadhlp.dll	A: 0x6FC70000 - 0x6FC78000	(C:\Windows\System32\rasadhlp.dll)
+CRYPTSP.dll	A: 0x71D60000 - 0x71D75000	(C:\WINDOWS\SYSTEM32\CRYPTSP.dll)
+CRYPTBASE.dll	A: 0x71C50000 - 0x71C5B000	(C:\WINDOWS\SYSTEM32\CRYPTBASE.dll)
+bcryptPrimitives.dll	A: 0x753B0000 - 0x75412000	(C:\WINDOWS\System32\bcryptPrimitives.dll)
+libcrypto-1_1.dll	A: 0x7BBA0000 - 0x7BDD0000	(C:\Users\cemsin\AppData\Local\Programs\Python\Python39-32\DLLs\libcrypto-1_1.dll)
+bcrypt.dll	A: 0x71C30000 - 0x71C4A000	(C:\WINDOWS\SYSTEM32\bcrypt.dll)
+_bcrypt.pyd	A: 0x6E180000 - 0x6E1CA000	(C:\Users\cemsin\AppData\Local\Programs\Python\Python39-32\lib\site-packages\bcrypt\_bcrypt.pyd)
+collections.cp39-win32.pyd	A: 0x6E240000 - 0x6E25F000	(C:\Users\cemsin\AppData\Local\Programs\Python\Python39-32\lib\site-packages\sqlalchemy\cyextension\collections.cp39-win32.pyd)
+immutabledict.cp39-win32.pyd	A: 0x6E170000 - 0x6E17E000	(C:\Users\cemsin\AppData\Local\Programs\Python\Python39-32\lib\site-packages\sqlalchemy\cyextension\immutabledict.cp39-win32.pyd)
+processors.cp39-win32.pyd	A: 0x6E160000 - 0x6E16A000	(C:\Users\cemsin\AppData\Local\Programs\Python\Python39-32\lib\site-packages\sqlalchemy\cyextension\processors.cp39-win32.pyd)
+resultproxy.cp39-win32.pyd	A: 0x6E150000 - 0x6E15D000	(C:\Users\cemsin\AppData\Local\Programs\Python\Python39-32\lib\site-packages\sqlalchemy\cyextension\resultproxy.cp39-win32.pyd)
+util.cp39-win32.pyd	A: 0x6E140000 - 0x6E14E000	(C:\Users\cemsin\AppData\Local\Programs\Python\Python39-32\lib\site-packages\sqlalchemy\cyextension\util.cp39-win32.pyd)
+_socket.pyd	A: 0x6E0D0000 - 0x6E0E2000	(C:\Users\cemsin\AppData\Local\Programs\Python\Python39-32\DLLs\_socket.pyd)
+select.pyd	A: 0x6E130000 - 0x6E138000	(C:\Users\cemsin\AppData\Local\Programs\Python\Python39-32\DLLs\select.pyd)
+_bz2.pyd	A: 0x6E0B0000 - 0x6E0C5000	(C:\Users\cemsin\AppData\Local\Programs\Python\Python39-32\DLLs\_bz2.pyd)
+_ssl.pyd	A: 0x6E050000 - 0x6E075000	(C:\Users\cemsin\AppData\Local\Programs\Python\Python39-32\DLLs\_ssl.pyd)
+CRYPT32.dll	A: 0x76890000 - 0x76994000	(C:\WINDOWS\System32\CRYPT32.dll)
+libssl-1_1.dll	A: 0x78C00000 - 0x78C88000	(C:\Users\cemsin\AppData\Local\Programs\Python\Python39-32\DLLs\libssl-1_1.dll)
+_asyncio.pyd	A: 0x6E040000 - 0x6E050000	(C:\Users\cemsin\AppData\Local\Programs\Python\Python39-32\DLLs\_asyncio.pyd)
+_overlapped.pyd	A: 0x78C90000 - 0x78C9B000	(C:\Users\cemsin\AppData\Local\Programs\Python\Python39-32\DLLs\_overlapped.pyd)
+_greenlet.cp39-win32.pyd	A: 0x78CA0000 - 0x78CB1000	(C:\Users\cemsin\AppData\Local\Programs\Python\Python39-32\lib\site-packages\greenlet\_greenlet.cp39-win32.pyd)
+_decimal.pyd	A: 0x7BDD0000 - 0x7BE0A000	(C:\Users\cemsin\AppData\Local\Programs\Python\Python39-32\DLLs\_decimal.pyd)
+_uuid.pyd	A: 0x78CC0000 - 0x78CC7000	(C:\Users\cemsin\AppData\Local\Programs\Python\Python39-32\DLLs\_uuid.pyd)
+_sqlite3.pyd	A: 0x786D0000 - 0x786E2000	(C:\Users\cemsin\AppData\Local\Programs\Python\Python39-32\DLLs\_sqlite3.pyd)
+sqlite3.dll	A: 0x78590000 - 0x786C7000	(C:\Users\cemsin\AppData\Local\Programs\Python\Python39-32\DLLs\sqlite3.dll)
+
+--------------------------
+SA-MP Server: 0.3.DL-R1
+
+Exception At Address: 0x75BE2C86 Module: (ucrtbase.dll)
+
+Registers:
+EAX: 0x74BF0B50	EBX: 0x0019F273	ECX: 0x74BF0B60	EDX: 0x00000010
+ESI: 0x74BF0B50	EDI: 0x7FFFFFFF	EBP: 0x0019EDD4	ESP: 0x0019EDCC
+EFLAGS: 0x00010287
+
+Stack:
++0000: 0x00000073   0x0019EE70   0x0019EDE4   0x75C037F9
++0010: 0x74BF0B50   0x7FFFFFFF   0x0019EE30   0x75BBC3FE
++0020: 0x7FFFFFFF   0x74BF0B50   0x0019EE70   0x0019F2B8
++0030: 0x75BBC7CC   0x00000073   0x0019EE70   0x0019F2B8
++0040: 0x0019F88C   0x75C11C00   0x0019EE70   0x0019F2D4
++0050: 0x75BFA7D1   0x00000020   0x0019F2F8   0x0019F2F8
++0060: 0x68C9DAF2   0x0019F2D4   0x75BBD657   0x0019F348
++0070: 0x00000400   0x00000000   0x75C011B6   0x00000000
++0080: 0x00000000   0x6E202D60   0x00000025   0x00000000
++0090: 0x00000000   0x0019F373   0x00000400   0x0000002B
++00A0: 0x00000000   0x00000025   0x00000000   0x0019F2F8
++00B0: 0x005DC405   0x0019F76C   0x0000002B   0x00000207
++00C0: 0x00000000   0x00000000   0xFFFFFFFF   0x00000000
++00D0: 0x00007300   0x74BF0B50   0x00000000   0x00000000
++00E0: 0x00000064   0x00100017   0x04DFE4A0   0x00000000
++00F0: 0x0000000B   0x00000000   0x054FEEF8   0x05500837
++0100: 0x05500838   0x04DFE490   0x005B0000   0x005B0000
++0110: 0x0019EEFC   0x7711EBF6   0x00000002   0x00000000
++0120: 0x00000000   0x005B0000   0x05500838   0x00000002
++0130: 0x0019EFF8   0x7712BC29   0x005B0000   0x00000002
+
+--------------------------
+
+Loaded Modules:
+samp-server.exe	A: 0x00400000 - 0x0051F000	(C:\Users\cemsin\Desktop\samp_pysamp\samp-server.exe)
+ntdll.dll	A: 0x770D0000 - 0x7727F000	(C:\WINDOWS\SYSTEM32\ntdll.dll)
+KERNEL32.DLL	A: 0x75000000 - 0x750F0000	(C:\WINDOWS\System32\KERNEL32.DLL)
+KERNELBASE.dll	A: 0x75ED0000 - 0x76143000	(C:\WINDOWS\System32\KERNELBASE.dll)
+apphelp.dll	A: 0x65280000 - 0x65325000	(C:\WINDOWS\SYSTEM32\apphelp.dll)
+SHELL32.dll	A: 0x75520000 - 0x75B8C000	(C:\WINDOWS\System32\SHELL32.dll)
+msvcp_win.dll	A: 0x75DB0000 - 0x75E29000	(C:\WINDOWS\System32\msvcp_win.dll)
+ucrtbase.dll	A: 0x75B90000 - 0x75CA2000	(C:\WINDOWS\System32\ucrtbase.dll)
+USER32.dll	A: 0x74E30000 - 0x74FD5000	(C:\WINDOWS\System32\USER32.dll)
+win32u.dll	A: 0x74FE0000 - 0x74FFA000	(C:\WINDOWS\System32\win32u.dll)
+GDI32.dll	A: 0x751D0000 - 0x751F3000	(C:\WINDOWS\System32\GDI32.dll)
+gdi32full.dll	A: 0x769A0000 - 0x76A82000	(C:\WINDOWS\System32\gdi32full.dll)
+WINMM.dll	A: 0x6E2B0000 - 0x6E2E1000	(C:\WINDOWS\SYSTEM32\WINMM.dll)
+WSOCK32.dll	A: 0x700C0000 - 0x700C8000	(C:\WINDOWS\SYSTEM32\WSOCK32.dll)
+msvcrt.dll	A: 0x765F0000 - 0x766B4000	(C:\WINDOWS\System32\msvcrt.dll)
+ws2_32.DLL	A: 0x74DD0000 - 0x74E2F000	(C:\WINDOWS\System32\ws2_32.DLL)
+RPCRT4.dll	A: 0x76530000 - 0x765EA000	(C:\WINDOWS\System32\RPCRT4.dll)
+IMM32.DLL	A: 0x75E30000 - 0x75E55000	(C:\WINDOWS\System32\IMM32.DLL)
+PySAMP.DLL	A: 0x6E1D0000 - 0x6E21C000	(C:\Users\cemsin\Desktop\samp_pysamp\plugins\PySAMP.DLL)
+VCRUNTIME140.dll	A: 0x6EDF0000 - 0x6EE05000	(C:\WINDOWS\SYSTEM32\VCRUNTIME140.dll)
+MSVCP140.dll	A: 0x6ED80000 - 0x6EDED000	(C:\WINDOWS\SYSTEM32\MSVCP140.dll)
+combase.dll	A: 0x76170000 - 0x763EB000	(C:\WINDOWS\System32\combase.dll)
+python3.dll	A: 0x6E270000 - 0x6E27F000	(C:\Users\cemsin\AppData\Local\Programs\Python\Python39-32\python3.dll)
+python39.DLL	A: 0x7B4C0000 - 0x7B921000	(C:\Users\cemsin\AppData\Local\Programs\Python\Python39-32\python39.DLL)
+ADVAPI32.dll	A: 0x77040000 - 0x770BC000	(C:\WINDOWS\System32\ADVAPI32.dll)
+sechost.dll	A: 0x75CC0000 - 0x75D42000	(C:\WINDOWS\System32\sechost.dll)
+VERSION.dll	A: 0x74CB0000 - 0x74CB8000	(C:\WINDOWS\SYSTEM32\VERSION.dll)
+mswsock.dll	A: 0x70470000 - 0x704C1000	(C:\WINDOWS\system32\mswsock.dll)
+napinsp.dll	A: 0x70450000 - 0x70462000	(C:\WINDOWS\system32\napinsp.dll)
+pnrpnsp.dll	A: 0x70430000 - 0x70446000	(C:\WINDOWS\system32\pnrpnsp.dll)
+DNSAPI.dll	A: 0x70370000 - 0x70429000	(C:\WINDOWS\SYSTEM32\DNSAPI.dll)
+IPHLPAPI.DLL	A: 0x70340000 - 0x70364000	(C:\WINDOWS\SYSTEM32\IPHLPAPI.DLL)
+NSI.dll	A: 0x76150000 - 0x76157000	(C:\WINDOWS\System32\NSI.dll)
+winrnr.dll	A: 0x70330000 - 0x7033E000	(C:\WINDOWS\System32\winrnr.dll)
+wshbth.dll	A: 0x70310000 - 0x70321000	(C:\WINDOWS\system32\wshbth.dll)
+rasadhlp.dll	A: 0x6FC70000 - 0x6FC78000	(C:\Windows\System32\rasadhlp.dll)
+CRYPTSP.dll	A: 0x71D60000 - 0x71D75000	(C:\WINDOWS\SYSTEM32\CRYPTSP.dll)
+CRYPTBASE.dll	A: 0x71C50000 - 0x71C5B000	(C:\WINDOWS\SYSTEM32\CRYPTBASE.dll)
+bcryptPrimitives.dll	A: 0x753B0000 - 0x75412000	(C:\WINDOWS\System32\bcryptPrimitives.dll)
+libcrypto-1_1.dll	A: 0x7BBA0000 - 0x7BDD0000	(C:\Users\cemsin\AppData\Local\Programs\Python\Python39-32\DLLs\libcrypto-1_1.dll)
+bcrypt.dll	A: 0x71C30000 - 0x71C4A000	(C:\WINDOWS\SYSTEM32\bcrypt.dll)
+_bcrypt.pyd	A: 0x6E180000 - 0x6E1CA000	(C:\Users\cemsin\AppData\Local\Programs\Python\Python39-32\lib\site-packages\bcrypt\_bcrypt.pyd)
+collections.cp39-win32.pyd	A: 0x6E240000 - 0x6E25F000	(C:\Users\cemsin\AppData\Local\Programs\Python\Python39-32\lib\site-packages\sqlalchemy\cyextension\collections.cp39-win32.pyd)
+immutabledict.cp39-win32.pyd	A: 0x6E170000 - 0x6E17E000	(C:\Users\cemsin\AppData\Local\Programs\Python\Python39-32\lib\site-packages\sqlalchemy\cyextension\immutabledict.cp39-win32.pyd)
+processors.cp39-win32.pyd	A: 0x6E160000 - 0x6E16A000	(C:\Users\cemsin\AppData\Local\Programs\Python\Python39-32\lib\site-packages\sqlalchemy\cyextension\processors.cp39-win32.pyd)
+resultproxy.cp39-win32.pyd	A: 0x6E150000 - 0x6E15D000	(C:\Users\cemsin\AppData\Local\Programs\Python\Python39-32\lib\site-packages\sqlalchemy\cyextension\resultproxy.cp39-win32.pyd)
+util.cp39-win32.pyd	A: 0x6E140000 - 0x6E14E000	(C:\Users\cemsin\AppData\Local\Programs\Python\Python39-32\lib\site-packages\sqlalchemy\cyextension\util.cp39-win32.pyd)
+_socket.pyd	A: 0x6E0D0000 - 0x6E0E2000	(C:\Users\cemsin\AppData\Local\Programs\Python\Python39-32\DLLs\_socket.pyd)
+select.pyd	A: 0x6E130000 - 0x6E138000	(C:\Users\cemsin\AppData\Local\Programs\Python\Python39-32\DLLs\select.pyd)
+_bz2.pyd	A: 0x6E0B0000 - 0x6E0C5000	(C:\Users\cemsin\AppData\Local\Programs\Python\Python39-32\DLLs\_bz2.pyd)
+_ssl.pyd	A: 0x6E050000 - 0x6E075000	(C:\Users\cemsin\AppData\Local\Programs\Python\Python39-32\DLLs\_ssl.pyd)
+CRYPT32.dll	A: 0x76890000 - 0x76994000	(C:\WINDOWS\System32\CRYPT32.dll)
+libssl-1_1.dll	A: 0x79F30000 - 0x79FB8000	(C:\Users\cemsin\AppData\Local\Programs\Python\Python39-32\DLLs\libssl-1_1.dll)
+_asyncio.pyd	A: 0x6E040000 - 0x6E050000	(C:\Users\cemsin\AppData\Local\Programs\Python\Python39-32\DLLs\_asyncio.pyd)
+_overlapped.pyd	A: 0x79FC0000 - 0x79FCB000	(C:\Users\cemsin\AppData\Local\Programs\Python\Python39-32\DLLs\_overlapped.pyd)
+_greenlet.cp39-win32.pyd	A: 0x78CA0000 - 0x78CB1000	(C:\Users\cemsin\AppData\Local\Programs\Python\Python39-32\lib\site-packages\greenlet\_greenlet.cp39-win32.pyd)
+_decimal.pyd	A: 0x79710000 - 0x7974A000	(C:\Users\cemsin\AppData\Local\Programs\Python\Python39-32\DLLs\_decimal.pyd)
+_uuid.pyd	A: 0x79FD0000 - 0x79FD7000	(C:\Users\cemsin\AppData\Local\Programs\Python\Python39-32\DLLs\_uuid.pyd)
+_sqlite3.pyd	A: 0x786D0000 - 0x786E2000	(C:\Users\cemsin\AppData\Local\Programs\Python\Python39-32\DLLs\_sqlite3.pyd)
+sqlite3.dll	A: 0x78590000 - 0x786C7000	(C:\Users\cemsin\AppData\Local\Programs\Python\Python39-32\DLLs\sqlite3.dll)
+
+--------------------------
+SA-MP Server: 0.3.DL-R1
+
+Exception At Address: 0x75BE2C86 Module: (ucrtbase.dll)
+
+Registers:
+EAX: 0xB7F52F96	EBX: 0x0019F273	ECX: 0xB7F52FA0	EDX: 0x0000000A
+ESI: 0xB7F52F96	EDI: 0x7FFFFFFF	EBP: 0x0019EDD4	ESP: 0x0019EDCC
+EFLAGS: 0x00010287
+
+Stack:
++0000: 0x00000073   0x0019EE70   0x0019EDE4   0x75C037F9
++0010: 0xB7F52F96   0x7FFFFFFF   0x0019EE30   0x75BBC3FE
++0020: 0x7FFFFFFF   0xB7F52F96   0x0019EE70   0x0019F2B8
++0030: 0x75BBC7CC   0x00000073   0x0019EE70   0x0019F2B8
++0040: 0x0019F88C   0x75C11C00   0x0019EE70   0x0019F2D4
++0050: 0x75BFA7D1   0x00000020   0x0019F2F8   0x0019F2F8
++0060: 0x1C166A97   0x0019F2D4   0x75BBD657   0x0019F348
++0070: 0x00000400   0x00000000   0x75C011B6   0x00000000
++0080: 0x00000000   0x6E202D60   0x00000025   0x00000000
++0090: 0x00000000   0x0019F373   0x00000400   0x0000002B
++00A0: 0x00000000   0x00000025   0x00000000   0x0019F2F8
++00B0: 0x0064C6FD   0x0019F76C   0x0000002B   0x00000207
++00C0: 0x00000000   0x00000000   0xFFFFFFFF   0x00000000
++00D0: 0x00197300   0xB7F52F96   0x00000000   0x00000000
++00E0: 0x00000064   0x000A000C   0x04DCEAE8   0x00000000
++00F0: 0x00000008   0x00000000   0x054D0048   0x054D12AF
++0100: 0x054D12B0   0x04DCEAD8   0x00630000   0x059CA880
++0110: 0x0019EEFC   0x7711EBF6   0x00000002   0x00000000
++0120: 0x00000000   0x00630000   0x054D12B0   0x00000002
++0130: 0x0019EFF8   0x7712BC29   0x00630000   0x00000002
+
+--------------------------
+
+Loaded Modules:
+samp-server.exe	A: 0x00400000 - 0x0051F000	(C:\Users\cemsin\Desktop\samp_pysamp\samp-server.exe)
+ntdll.dll	A: 0x770D0000 - 0x7727F000	(C:\WINDOWS\SYSTEM32\ntdll.dll)
+KERNEL32.DLL	A: 0x75000000 - 0x750F0000	(C:\WINDOWS\System32\KERNEL32.DLL)
+KERNELBASE.dll	A: 0x75ED0000 - 0x76143000	(C:\WINDOWS\System32\KERNELBASE.dll)
+SHELL32.dll	A: 0x75520000 - 0x75B8C000	(C:\WINDOWS\System32\SHELL32.dll)
+msvcp_win.dll	A: 0x75DB0000 - 0x75E29000	(C:\WINDOWS\System32\msvcp_win.dll)
+ucrtbase.dll	A: 0x75B90000 - 0x75CA2000	(C:\WINDOWS\System32\ucrtbase.dll)
+USER32.dll	A: 0x74E30000 - 0x74FD5000	(C:\WINDOWS\System32\USER32.dll)
+win32u.dll	A: 0x74FE0000 - 0x74FFA000	(C:\WINDOWS\System32\win32u.dll)
+GDI32.dll	A: 0x751D0000 - 0x751F3000	(C:\WINDOWS\System32\GDI32.dll)
+gdi32full.dll	A: 0x769A0000 - 0x76A82000	(C:\WINDOWS\System32\gdi32full.dll)
+WINMM.dll	A: 0x6E2B0000 - 0x6E2E1000	(C:\WINDOWS\SYSTEM32\WINMM.dll)
+WSOCK32.dll	A: 0x700C0000 - 0x700C8000	(C:\WINDOWS\SYSTEM32\WSOCK32.dll)
+msvcrt.dll	A: 0x765F0000 - 0x766B4000	(C:\WINDOWS\System32\msvcrt.dll)
+ws2_32.DLL	A: 0x74DD0000 - 0x74E2F000	(C:\WINDOWS\System32\ws2_32.DLL)
+RPCRT4.dll	A: 0x76530000 - 0x765EA000	(C:\WINDOWS\System32\RPCRT4.dll)
+IMM32.DLL	A: 0x75E30000 - 0x75E55000	(C:\WINDOWS\System32\IMM32.DLL)
+PySAMP.DLL	A: 0x6E1D0000 - 0x6E21C000	(C:\Users\cemsin\Desktop\samp_pysamp\plugins\PySAMP.DLL)
+VCRUNTIME140.dll	A: 0x6EDF0000 - 0x6EE05000	(C:\WINDOWS\SYSTEM32\VCRUNTIME140.dll)
+MSVCP140.dll	A: 0x6ED80000 - 0x6EDED000	(C:\WINDOWS\SYSTEM32\MSVCP140.dll)
+combase.dll	A: 0x76170000 - 0x763EB000	(C:\WINDOWS\System32\combase.dll)
+python3.dll	A: 0x6E270000 - 0x6E27F000	(C:\Users\cemsin\AppData\Local\Programs\Python\Python39-32\python3.dll)
+python39.DLL	A: 0x7B4C0000 - 0x7B921000	(C:\Users\cemsin\AppData\Local\Programs\Python\Python39-32\python39.DLL)
+ADVAPI32.dll	A: 0x77040000 - 0x770BC000	(C:\WINDOWS\System32\ADVAPI32.dll)
+sechost.dll	A: 0x75CC0000 - 0x75D42000	(C:\WINDOWS\System32\sechost.dll)
+VERSION.dll	A: 0x74CB0000 - 0x74CB8000	(C:\WINDOWS\SYSTEM32\VERSION.dll)
+mswsock.dll	A: 0x70470000 - 0x704C1000	(C:\WINDOWS\system32\mswsock.dll)
+napinsp.dll	A: 0x70450000 - 0x70462000	(C:\WINDOWS\system32\napinsp.dll)
+pnrpnsp.dll	A: 0x70430000 - 0x70446000	(C:\WINDOWS\system32\pnrpnsp.dll)
+DNSAPI.dll	A: 0x70370000 - 0x70429000	(C:\WINDOWS\SYSTEM32\DNSAPI.dll)
+IPHLPAPI.DLL	A: 0x70340000 - 0x70364000	(C:\WINDOWS\SYSTEM32\IPHLPAPI.DLL)
+NSI.dll	A: 0x76150000 - 0x76157000	(C:\WINDOWS\System32\NSI.dll)
+winrnr.dll	A: 0x70330000 - 0x7033E000	(C:\WINDOWS\System32\winrnr.dll)
+wshbth.dll	A: 0x70310000 - 0x70321000	(C:\WINDOWS\system32\wshbth.dll)
+rasadhlp.dll	A: 0x6FC70000 - 0x6FC78000	(C:\Windows\System32\rasadhlp.dll)
+CRYPTSP.dll	A: 0x71D60000 - 0x71D75000	(C:\WINDOWS\SYSTEM32\CRYPTSP.dll)
+CRYPTBASE.dll	A: 0x71C50000 - 0x71C5B000	(C:\WINDOWS\SYSTEM32\CRYPTBASE.dll)
+bcryptPrimitives.dll	A: 0x753B0000 - 0x75412000	(C:\WINDOWS\System32\bcryptPrimitives.dll)
+libcrypto-1_1.dll	A: 0x7BBA0000 - 0x7BDD0000	(C:\Users\cemsin\AppData\Local\Programs\Python\Python39-32\DLLs\libcrypto-1_1.dll)
+bcrypt.dll	A: 0x71C30000 - 0x71C4A000	(C:\WINDOWS\SYSTEM32\bcrypt.dll)
+_bcrypt.pyd	A: 0x6E180000 - 0x6E1CA000	(C:\Users\cemsin\AppData\Local\Programs\Python\Python39-32\lib\site-packages\bcrypt\_bcrypt.pyd)
+collections.cp39-win32.pyd	A: 0x6E240000 - 0x6E25F000	(C:\Users\cemsin\AppData\Local\Programs\Python\Python39-32\lib\site-packages\sqlalchemy\cyextension\collections.cp39-win32.pyd)
+immutabledict.cp39-win32.pyd	A: 0x6E170000 - 0x6E17E000	(C:\Users\cemsin\AppData\Local\Programs\Python\Python39-32\lib\site-packages\sqlalchemy\cyextension\immutabledict.cp39-win32.pyd)
+processors.cp39-win32.pyd	A: 0x6E160000 - 0x6E16A000	(C:\Users\cemsin\AppData\Local\Programs\Python\Python39-32\lib\site-packages\sqlalchemy\cyextension\processors.cp39-win32.pyd)
+resultproxy.cp39-win32.pyd	A: 0x6E150000 - 0x6E15D000	(C:\Users\cemsin\AppData\Local\Programs\Python\Python39-32\lib\site-packages\sqlalchemy\cyextension\resultproxy.cp39-win32.pyd)
+util.cp39-win32.pyd	A: 0x6E140000 - 0x6E14E000	(C:\Users\cemsin\AppData\Local\Programs\Python\Python39-32\lib\site-packages\sqlalchemy\cyextension\util.cp39-win32.pyd)
+_socket.pyd	A: 0x6E0D0000 - 0x6E0E2000	(C:\Users\cemsin\AppData\Local\Programs\Python\Python39-32\DLLs\_socket.pyd)
+select.pyd	A: 0x6E130000 - 0x6E138000	(C:\Users\cemsin\AppData\Local\Programs\Python\Python39-32\DLLs\select.pyd)
+_bz2.pyd	A: 0x6E0B0000 - 0x6E0C5000	(C:\Users\cemsin\AppData\Local\Programs\Python\Python39-32\DLLs\_bz2.pyd)
+_ssl.pyd	A: 0x6E050000 - 0x6E075000	(C:\Users\cemsin\AppData\Local\Programs\Python\Python39-32\DLLs\_ssl.pyd)
+CRYPT32.dll	A: 0x76890000 - 0x76994000	(C:\WINDOWS\System32\CRYPT32.dll)
+libssl-1_1.dll	A: 0x79F30000 - 0x79FB8000	(C:\Users\cemsin\AppData\Local\Programs\Python\Python39-32\DLLs\libssl-1_1.dll)
+_asyncio.pyd	A: 0x6E040000 - 0x6E050000	(C:\Users\cemsin\AppData\Local\Programs\Python\Python39-32\DLLs\_asyncio.pyd)
+_overlapped.pyd	A: 0x79FC0000 - 0x79FCB000	(C:\Users\cemsin\AppData\Local\Programs\Python\Python39-32\DLLs\_overlapped.pyd)
+_greenlet.cp39-win32.pyd	A: 0x78CA0000 - 0x78CB1000	(C:\Users\cemsin\AppData\Local\Programs\Python\Python39-32\lib\site-packages\greenlet\_greenlet.cp39-win32.pyd)
+_decimal.pyd	A: 0x79710000 - 0x7974A000	(C:\Users\cemsin\AppData\Local\Programs\Python\Python39-32\DLLs\_decimal.pyd)
+_uuid.pyd	A: 0x79FD0000 - 0x79FD7000	(C:\Users\cemsin\AppData\Local\Programs\Python\Python39-32\DLLs\_uuid.pyd)
+_sqlite3.pyd	A: 0x786D0000 - 0x786E2000	(C:\Users\cemsin\AppData\Local\Programs\Python\Python39-32\DLLs\_sqlite3.pyd)
+sqlite3.dll	A: 0x78590000 - 0x786C7000	(C:\Users\cemsin\AppData\Local\Programs\Python\Python39-32\DLLs\sqlite3.dll)
+
+--------------------------
+SA-MP Server: 0.3.DL-R1
+
+Exception At Address: 0x75BE2C86 Module: (ucrtbase.dll)
+
+Registers:
+EAX: 0xA3B974D2	EBX: 0x0019F273	ECX: 0xA3B974E0	EDX: 0x0000000E
+ESI: 0xA3B974D2	EDI: 0x7FFFFFFF	EBP: 0x0019EDD4	ESP: 0x0019EDCC
+EFLAGS: 0x00010283
+
+Stack:
++0000: 0x00000073   0x0019EE70   0x0019EDE4   0x75C037F9
++0010: 0xA3B974D2   0x7FFFFFFF   0x0019EE30   0x75BBC3FE
++0020: 0x7FFFFFFF   0xA3B974D2   0x0019EE70   0x0019F2B8
++0030: 0x75BBC7CC   0x00000073   0x0019EE70   0x0019F2B8
++0040: 0x0019F88C   0x75C11C00   0x0019EE70   0x0019F2D4
++0050: 0x75BFA7D1   0x00000020   0x0019F2F8   0x0019F2F8
++0060: 0x91F0A299   0x0019F2D4   0x75BBD657   0x0019F348
++0070: 0x00000400   0x00000000   0x75C011B6   0x00000000
++0080: 0x00000000   0x6E202D60   0x00000025   0x00000000
++0090: 0x00000000   0x0019F373   0x00000400   0x0000002B
++00A0: 0x00000000   0x00000025   0x00000000   0x0019F2F8
++00B0: 0x00881FF5   0x0019F76C   0x0000002B   0x00000207
++00C0: 0x00000000   0x00000000   0xFFFFFFFF   0x00000000
++00D0: 0x00007300   0xA3B974D2   0x00000000   0x00000000
++00E0: 0x00000064   0x000E0016   0x04ECFEE0   0x00000000
++00F0: 0x00000014   0x00000000   0x054F7D68   0x054FAB2F
++0100: 0x054FAB30   0x04ECFED0   0x00860000   0x00860000
++0110: 0x0019EEFC   0x7711EBF6   0x00000002   0x00000000
++0120: 0x00000000   0x00860000   0x054FAB30   0x00000002
++0130: 0x0019EFF8   0x7712BC29   0x00860000   0x00000002
+
+--------------------------
+
+Loaded Modules:
+samp-server.exe	A: 0x00400000 - 0x0051F000	(C:\Users\cemsin\Desktop\samp_pysamp\samp-server.exe)
+ntdll.dll	A: 0x770D0000 - 0x7727F000	(C:\WINDOWS\SYSTEM32\ntdll.dll)
+KERNEL32.DLL	A: 0x75000000 - 0x750F0000	(C:\WINDOWS\System32\KERNEL32.DLL)
+KERNELBASE.dll	A: 0x75ED0000 - 0x76143000	(C:\WINDOWS\System32\KERNELBASE.dll)
+SHELL32.dll	A: 0x75520000 - 0x75B8C000	(C:\WINDOWS\System32\SHELL32.dll)
+msvcp_win.dll	A: 0x75DB0000 - 0x75E29000	(C:\WINDOWS\System32\msvcp_win.dll)
+ucrtbase.dll	A: 0x75B90000 - 0x75CA2000	(C:\WINDOWS\System32\ucrtbase.dll)
+USER32.dll	A: 0x74E30000 - 0x74FD5000	(C:\WINDOWS\System32\USER32.dll)
+win32u.dll	A: 0x74FE0000 - 0x74FFA000	(C:\WINDOWS\System32\win32u.dll)
+GDI32.dll	A: 0x751D0000 - 0x751F3000	(C:\WINDOWS\System32\GDI32.dll)
+gdi32full.dll	A: 0x769A0000 - 0x76A82000	(C:\WINDOWS\System32\gdi32full.dll)
+WSOCK32.dll	A: 0x700C0000 - 0x700C8000	(C:\WINDOWS\SYSTEM32\WSOCK32.dll)
+WINMM.dll	A: 0x6E2B0000 - 0x6E2E1000	(C:\WINDOWS\SYSTEM32\WINMM.dll)
+msvcrt.dll	A: 0x765F0000 - 0x766B4000	(C:\WINDOWS\System32\msvcrt.dll)
+ws2_32.DLL	A: 0x74DD0000 - 0x74E2F000	(C:\WINDOWS\System32\ws2_32.DLL)
+RPCRT4.dll	A: 0x76530000 - 0x765EA000	(C:\WINDOWS\System32\RPCRT4.dll)
+IMM32.DLL	A: 0x75E30000 - 0x75E55000	(C:\WINDOWS\System32\IMM32.DLL)
+PySAMP.DLL	A: 0x6E1D0000 - 0x6E21C000	(C:\Users\cemsin\Desktop\samp_pysamp\plugins\PySAMP.DLL)
+VCRUNTIME140.dll	A: 0x6EDF0000 - 0x6EE05000	(C:\WINDOWS\SYSTEM32\VCRUNTIME140.dll)
+MSVCP140.dll	A: 0x6ED80000 - 0x6EDED000	(C:\WINDOWS\SYSTEM32\MSVCP140.dll)
+combase.dll	A: 0x76170000 - 0x763EB000	(C:\WINDOWS\System32\combase.dll)
+python3.dll	A: 0x6E270000 - 0x6E27F000	(C:\Users\cemsin\AppData\Local\Programs\Python\Python39-32\python3.dll)
+python39.DLL	A: 0x7B4C0000 - 0x7B921000	(C:\Users\cemsin\AppData\Local\Programs\Python\Python39-32\python39.DLL)
+ADVAPI32.dll	A: 0x77040000 - 0x770BC000	(C:\WINDOWS\System32\ADVAPI32.dll)
+sechost.dll	A: 0x75CC0000 - 0x75D42000	(C:\WINDOWS\System32\sechost.dll)
+VERSION.dll	A: 0x74CB0000 - 0x74CB8000	(C:\WINDOWS\SYSTEM32\VERSION.dll)
+mswsock.dll	A: 0x70470000 - 0x704C1000	(C:\WINDOWS\system32\mswsock.dll)
+napinsp.dll	A: 0x70450000 - 0x70462000	(C:\WINDOWS\system32\napinsp.dll)
+pnrpnsp.dll	A: 0x70430000 - 0x70446000	(C:\WINDOWS\system32\pnrpnsp.dll)
+DNSAPI.dll	A: 0x70370000 - 0x70429000	(C:\WINDOWS\SYSTEM32\DNSAPI.dll)
+IPHLPAPI.DLL	A: 0x70340000 - 0x70364000	(C:\WINDOWS\SYSTEM32\IPHLPAPI.DLL)
+NSI.dll	A: 0x76150000 - 0x76157000	(C:\WINDOWS\System32\NSI.dll)
+winrnr.dll	A: 0x70330000 - 0x7033E000	(C:\WINDOWS\System32\winrnr.dll)
+wshbth.dll	A: 0x70310000 - 0x70321000	(C:\WINDOWS\system32\wshbth.dll)
+rasadhlp.dll	A: 0x6FC70000 - 0x6FC78000	(C:\Windows\System32\rasadhlp.dll)
+CRYPTSP.dll	A: 0x71D60000 - 0x71D75000	(C:\WINDOWS\SYSTEM32\CRYPTSP.dll)
+CRYPTBASE.dll	A: 0x71C50000 - 0x71C5B000	(C:\WINDOWS\SYSTEM32\CRYPTBASE.dll)
+bcryptPrimitives.dll	A: 0x753B0000 - 0x75412000	(C:\WINDOWS\System32\bcryptPrimitives.dll)
+libcrypto-1_1.dll	A: 0x7BBA0000 - 0x7BDD0000	(C:\Users\cemsin\AppData\Local\Programs\Python\Python39-32\DLLs\libcrypto-1_1.dll)
+bcrypt.dll	A: 0x71C30000 - 0x71C4A000	(C:\WINDOWS\SYSTEM32\bcrypt.dll)
+_bcrypt.pyd	A: 0x6E180000 - 0x6E1CA000	(C:\Users\cemsin\AppData\Local\Programs\Python\Python39-32\lib\site-packages\bcrypt\_bcrypt.pyd)
+collections.cp39-win32.pyd	A: 0x6E240000 - 0x6E25F000	(C:\Users\cemsin\AppData\Local\Programs\Python\Python39-32\lib\site-packages\sqlalchemy\cyextension\collections.cp39-win32.pyd)
+immutabledict.cp39-win32.pyd	A: 0x6E170000 - 0x6E17E000	(C:\Users\cemsin\AppData\Local\Programs\Python\Python39-32\lib\site-packages\sqlalchemy\cyextension\immutabledict.cp39-win32.pyd)
+processors.cp39-win32.pyd	A: 0x6E160000 - 0x6E16A000	(C:\Users\cemsin\AppData\Local\Programs\Python\Python39-32\lib\site-packages\sqlalchemy\cyextension\processors.cp39-win32.pyd)
+resultproxy.cp39-win32.pyd	A: 0x6E150000 - 0x6E15D000	(C:\Users\cemsin\AppData\Local\Programs\Python\Python39-32\lib\site-packages\sqlalchemy\cyextension\resultproxy.cp39-win32.pyd)
+util.cp39-win32.pyd	A: 0x6E140000 - 0x6E14E000	(C:\Users\cemsin\AppData\Local\Programs\Python\Python39-32\lib\site-packages\sqlalchemy\cyextension\util.cp39-win32.pyd)
+_socket.pyd	A: 0x6E0D0000 - 0x6E0E2000	(C:\Users\cemsin\AppData\Local\Programs\Python\Python39-32\DLLs\_socket.pyd)
+select.pyd	A: 0x6E130000 - 0x6E138000	(C:\Users\cemsin\AppData\Local\Programs\Python\Python39-32\DLLs\select.pyd)
+_bz2.pyd	A: 0x6E0B0000 - 0x6E0C5000	(C:\Users\cemsin\AppData\Local\Programs\Python\Python39-32\DLLs\_bz2.pyd)
+_ssl.pyd	A: 0x6E050000 - 0x6E075000	(C:\Users\cemsin\AppData\Local\Programs\Python\Python39-32\DLLs\_ssl.pyd)
+CRYPT32.dll	A: 0x76890000 - 0x76994000	(C:\WINDOWS\System32\CRYPT32.dll)
+libssl-1_1.dll	A: 0x79F30000 - 0x79FB8000	(C:\Users\cemsin\AppData\Local\Programs\Python\Python39-32\DLLs\libssl-1_1.dll)
+_asyncio.pyd	A: 0x6E040000 - 0x6E050000	(C:\Users\cemsin\AppData\Local\Programs\Python\Python39-32\DLLs\_asyncio.pyd)
+_overlapped.pyd	A: 0x79FC0000 - 0x79FCB000	(C:\Users\cemsin\AppData\Local\Programs\Python\Python39-32\DLLs\_overlapped.pyd)
+_greenlet.cp39-win32.pyd	A: 0x78CA0000 - 0x78CB1000	(C:\Users\cemsin\AppData\Local\Programs\Python\Python39-32\lib\site-packages\greenlet\_greenlet.cp39-win32.pyd)
+_decimal.pyd	A: 0x79710000 - 0x7974A000	(C:\Users\cemsin\AppData\Local\Programs\Python\Python39-32\DLLs\_decimal.pyd)
+_uuid.pyd	A: 0x79FD0000 - 0x79FD7000	(C:\Users\cemsin\AppData\Local\Programs\Python\Python39-32\DLLs\_uuid.pyd)
+_sqlite3.pyd	A: 0x786D0000 - 0x786E2000	(C:\Users\cemsin\AppData\Local\Programs\Python\Python39-32\DLLs\_sqlite3.pyd)
+sqlite3.dll	A: 0x78590000 - 0x786C7000	(C:\Users\cemsin\AppData\Local\Programs\Python\Python39-32\DLLs\sqlite3.dll)

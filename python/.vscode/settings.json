@@ -1,0 +1,8 @@
+{
+    "python.autoComplete.extraPaths": [
+        "C:/Users/cemsin/Desktop/samp_pysamp/pysamp"
+    ],
+    "python.analysis.extraPaths": [
+        "C:/Users/cemsin/Desktop/samp_pysamp/pysamp"
+    ]
+}

@@ -1,0 +1,5 @@
+# python/vars.py
+
+CITY_LOS_SANTOS = 0
+CITY_SAN_FIERRO = 1
+CITY_LAS_VENTURAS = 2
